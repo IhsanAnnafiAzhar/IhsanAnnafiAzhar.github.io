@@ -1,8 +1,43 @@
+<!DOCTYPE html>
 <html>
-	<body>
-		<h1>Hello World</h1>
-		<h2>Hello World</h2>
-		<img src="https://raw.githubusercontent.com/IhsanAnnafiAzhar/IhsanAnnafiAzhar.github.io/main/me.jpg" alt="Ihsan">
-		<iframe src="https://ihsanannafiazhar.github.io/" width="1200" height="900"  title="awkwk"></iframe>
-	</body>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title> Kalkulus</title>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    </head>
+    <body>
+        <p>
+            Menentukan volume grafik \(y= \frac{x^2}{\pi}\) dengan batas \(x=4\) dan \(y=0\)
+        </p>
+        <ul>
+            <li>
+                <p>
+                    Subtitusikan \(y=0\) ke \(y= \frac{x^2}{\pi}\)
+                    \[0=\frac{x^2}{\pi}\]
+                    \[0=x^2\]
+                    \[0=x\]
+                    \[x=0\]
+                </p>
+            </li>
+            <li>
+                <p>
+                    Subtitusikan ke dalam rumus \(V=\pi \int_b^a (f(x))^2 dx\) dengan \(a=4\) dan \(b=0\)
+                    \[V=\pi \int_0^4 (\frac{x^2}{\pi})^2 dx\]
+                    \[V=\pi \int_0^4 \frac{x^4}{\pi^2} dx\]
+                    \[V=\pi \frac{1}{\pi^2} \int_0^4 x^4 dx\]
+                    \[V=\pi \frac{1}{\pi^2} \int_0^4 x^4 dx\]
+                    \[V=\frac{1}{\pi} \int_0^4 x^4 dx\]
+                    \[V=\frac{1}{\pi} \Bigg[\frac{1}{5}x^5\Bigg]_0^4 \]
+                    \[V=\frac{1}{\pi} \Bigg[\Big(\frac{1}{5}4^5\Big)-\Big(\frac{1}{5}0^4\Big)\Bigg]\]
+                    \[V=\frac{1}{\pi} \Bigg[\Big(\frac{1}{5}1024\Big)-0\Bigg]\]
+                    \[V=\frac{1}{\pi} \Big(\frac{1}{5}1024\Big)\]
+                    \[V=\frac{1}{\pi} \Big(\frac{1024}{5}\Big)\]
+                    \[V=\frac{1024}{5\pi}\]
+                </p>
+            </li>
+            Jadi volumenya adalah \(\frac{1024}{5\pi}\) satuan volume
+        </ul>
+    </body>
 </html>
