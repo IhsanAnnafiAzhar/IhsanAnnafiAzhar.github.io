@@ -1,6 +1,6 @@
 ---
 short_name: pbm
-name: PBM
-position: PBM
+name: Psikologi Belajar Matematika
+position: Matkul Sem 2
 ---
-Ted has been eating fruit since he was baby.
+Deskripsi
