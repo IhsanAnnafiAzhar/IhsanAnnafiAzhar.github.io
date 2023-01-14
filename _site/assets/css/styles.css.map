@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../../_sass/main.scss"],"names":[],"mappings":"AAAA;EACE;;;AAGF;EACI","sourcesContent":[".navbar {\n  background-color:aquamarine;\n}\n\n.current {\n    color: red;\n  }  "],"file":"styles.css"}
