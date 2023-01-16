@@ -1,4 +1,39 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-01-14T22:05:29+07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Pbm</title><link href="http://localhost:4000/2023/01/12/PBM.html" rel="alternate" type="text/html" title="Pbm" /><published>2023-01-12T00:00:00+07:00</published><updated>2023-01-12T00:00:00+07:00</updated><id>http://localhost:4000/2023/01/12/PBM</id><content type="html" xml:base="http://localhost:4000/2023/01/12/PBM.html"><![CDATA[<h2 id="konsep">Konsep</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/jekyll-gitbook/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/jekyll-gitbook/" rel="alternate" type="text/html" /><updated>2023-01-16T23:00:52+07:00</updated><id>http://localhost:4000/jekyll-gitbook/feed.xml</id><title type="html">Jekyll Gitbook</title><subtitle>Build Jekyll site with the GitBook style.
+</subtitle><author><name>HE Tao</name></author><entry><title type="html">Persamaan Diferensial-Eksak</title><link href="http://localhost:4000/jekyll-gitbook/2023-01-16-PD-Eksak.html" rel="alternate" type="text/html" title="Persamaan Diferensial-Eksak" /><published>2023-01-16T00:00:00+07:00</published><updated>2023-01-16T00:00:00+07:00</updated><id>http://localhost:4000/jekyll-gitbook/PD-Eksak</id><content type="html" xml:base="http://localhost:4000/jekyll-gitbook/2023-01-16-PD-Eksak.html"><![CDATA[<ol>
+  <li>
+    <p>$(3x+2y)dx+(2x+y)dy=0$</p>
+
+    <ul>
+      <li>
+        <p>Menentukan apakah PD eksak</p>
+
+\[M(x,y)=3x+2y \ \ \ \ 
+  N(x,y)=2x+y\]
+
+\[\begin{align*}
+  \text{Eksak ketika } \frac{\partial M}{\partial y} &amp;= \frac{\partial N}{\partial x}\\
+  \frac{\partial (3x+2y)}{\partial y}=2 &amp; \ \ \ \frac{\partial (2x+y)}{\partial x}=2
+  \end{align*}\]
+
+        <p>Maka PD tersebut merupakan PD eksak</p>
+      </li>
+      <li>
+        <p>Mencari solusi</p>
+
+\[\begin{split}          
+  (3x+2y)dx+(2x+y)dy=0 \\
+  3xdx+2ydx+2xdy+ydy=0 \\
+  \bbox[5px, border: 1px solid black]{\int 3x dx =\frac{3}{2}x^2 \\ }\\
+  \bbox[5px, border: 1px solid black]{\int(2ydx+2xdy)=2\int(ydx+xdy)=2xy}\\
+  \bbox[5px, border: 1px solid black]{\int y dy = \frac{1}{2}y^2}\\
+  \frac{3}{2}x^2+2xy+\frac{1}{2}y^2=C
+  \end{split}\]
+      </li>
+    </ul>
+  </li>
+  <li>$(y^2+3)dx+(2xy-4)dy=0$</li>
+  <li>$(2xy+1)dx+(x^2+4y)dy=0$</li>
+</ol>]]></content><author><name>HE Tao</name></author><summary type="html"><![CDATA[$(3x+2y)dx+(2x+y)dy=0$ Menentukan apakah PD eksak \[M(x,y)=3x+2y \ \ \ \ N(x,y)=2x+y\] \[\begin{align*} \text{Eksak ketika } \frac{\partial M}{\partial y} &amp;= \frac{\partial N}{\partial x}\\ \frac{\partial (3x+2y)}{\partial y}=2 &amp; \ \ \ \frac{\partial (2x+y)}{\partial x}=2 \end{align*}\]]]></summary></entry><entry><title type="html">PBM</title><link href="http://localhost:4000/jekyll-gitbook/jekyll/2023-01-12-PBM.html" rel="alternate" type="text/html" title="PBM" /><published>2023-01-12T00:00:00+07:00</published><updated>2023-01-12T00:00:00+07:00</updated><id>http://localhost:4000/jekyll-gitbook/jekyll/PBM</id><content type="html" xml:base="http://localhost:4000/jekyll-gitbook/jekyll/2023-01-12-PBM.html"><![CDATA[<h2 id="konsep">Konsep</h2>
 
 <p>Konsep dibentuk melalui proses abstraksi</p>
 
@@ -400,34 +435,24 @@
   <li>
     <p>Umpan balik</p>
   </li>
-</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[Konsep Konsep dibentuk melalui proses abstraksi contoh diperkuat dengan contoh yang salah sehingga siswa mampu menggolongkan yang benar dan salah. DILARANG MENGAWALI MATERI DENGAN DEFINISI/ RUMUS Skema Skema tersusun dari beberapa konsep yang saling berhubungan. Berpikir secara skematis untuk menghubungkan antar konsep agar mudah dipanggil ulang. Bagian penting di RPP Apersepsi: Mengecek konsep yang ada di benak siswa, apakah sudah siap belajar. Bisa dengan memberi kuis kecil (dengan menghindari pertanyaan yang bisa dijawab massal, karena “tidak memberikan info apa-apa”), menunjuk siswa Motivasi Tujuan pembelajaran Setelah beberapa pertemuan, perlu membuat rangkuman dari beberapa konsep Kecerdasan Intuitif: Memahami sesuatu tanpa banyak dipikirkan/dipelajari Kecerdasan reflektif: … Modal utama guru Menguasai materi yang diajarkan Jika tidak, maka guru akan kehilangan rasa hormat, tidak dianggap oleh murid Jika tidak bisa menjawab pertanyaan murid, “dijawab nanti/ bsk ingatkan lagi” Jangan salah konsep Memahami bahwa siswa beragam dalam berbagai aspek (kecerdasan, ltr blkng, …) Guru membantu siswa meraih prestasi optimal apapun jenis kecerdasannya oleh karena itu perlu ilustrasi berbeda-beda. Kecerdasan intuitif bekerjasama dengan reflektif Intuitif memberikan ide awal terhadap suatu soal Melatih dengan mencongak untuk reflektif Belajar membuktikan rumus untuk intuitif Orang yang cenderung intuitif cepat merespon sehingga sering mendominasi kelas dan teman yang lain menjadi apatis (“Mesti dijawab dia”), selain itu menjadikan yang lain berpikir “kok bisa?”. Alangkah lebih baik guru memberikan pengantar sebelum soal keluar, sehingga semua bisa menjawab, bukan hanya yang intuitif. Guru juga membuktikan rumus yang belum terbukti. Guru baik adalah guru yang menguasai materi dan menjelaskan dengan jelas, serta The best teachers are those who are still active learners. Guru dapat belajar dari pengalaman sendiri, maupun belajar dari bagaimana siswa belajar. Pengalaman dapat menjadi guru terbaik apabila seseorang ingin belajar dari pengalaman Simbol Simbol sebagai alat komunikasi dan penjelas, bagian yang paling penting adalah makna dari simbol tersebut. Tipe-tipe pendengar/ pembaca: Belum mengetahui sama sekali, tetapi ingin tahu Mengetahui secara umum, tetapi belum mengetahui detailnya Sudah tahu banyak, tetapi sengaja ingin mencari celah (menyalahkan) Belum mengetahui dan tidak ingin tahu Sebelum memasuki kelas, hal pertama dan utama adalah guru menguasai materi yang diajarkan (jika bisa, melebihi materi yang sedang diajarkan). Memikirkan bagaimana caranya agar materi dengan dapat dengan mudah diapahami oleh murid Merancang pembelajaran yang menyenangkan Mengantisipasi pertanyaan siswa Memicu rasa ingin tahu Memikirkan detail suatu simbol, misal garis sejajar, tanda pada segitiga siku-siku. Konsep itu abstrak, namun dapat disimbolkan Konsep dapat diwujudkan dalam tanda-tanda (Simbol/lambang) Dibalik sebuah lambang, terdapat arti, maka harus konsisten dalam menggunakan lambang. Nama barang bisa berubah, tetapi barangnya tetap (Misal: satu, siji, one, setunggal) Simbol dapat digunakan untuk mencatat pengetahuan. Misal gagasan hanya ada di pikiran, tidak ada yang bisa tahu kecuali diri sendiri, oleh karena itu perlu dicatat/ dikomunikasikan sehingga jika kita meninggal, ilmu itu tidak hilang. Isi pikiran tidak dapat diamati secara langsung. Untuk mengetahui isi pikiran siswa (pemahaman), guru meminta siswa menyelesaikan soal. Jangan membebani psikologis murid Apabila menulis rumus, beri keterangan Misal : \(\int^b_a f(x)dx= F(b)-F(a)\)             \(b\) = batas atas             \(a\) = batas bawah             \(f(x)\) = batas variabel Membentuk konsep baru Konsep primer: dapat tanpa lambang Konsep sekunder: menunjukkan persamaan/ hubungan dengan lambang Suatu obyek dapat digolongkan menjadi beberapa cara, misal bilangan \(64=8^2=4^3=100-36\) \(4x^2-12xy+9y^2\) tidak negatif, karena bisa diubah menjadi \((2x-3y)^2\) sehingga pasti tidak negatif Semakin banyak kita menggolongkan sesuatu, semakin banyak masalah yang dapat dipecahkan Simbol/ lambang digunakan untuk komunikasi/ memberikan penjelasan Penyebab gagal: Kemungkinan digunakan skema yang salah Celah antara gagasan baru dengan skema yang sudah ada terlalu besar Skema yang sudah ada mungkin tidak mampu menyerap gagasan baru tanpa penyesuaian Faktor-faktor yang mempengaruhi hasil belajar Motivasi Kepercayaan diri Kecemasan Simbol Verbal dan Simbol Visual Simbol visual: Sulit dikomunikasikan, bersifat lebih ke individual (misal, geometri) Simbol verbal: Mudah dikomunikasikan, bsersifat lebih umum (misal, persamaan, aljabar) Contoh: Gambar segitiga =&gt; Simbol visual                 Ukuran pada segitiga =&gt; Simbol verbal Cemas Kecemasan dalam batas wajar bisa mmenjadi motivasi Motivasi dalam: keingingan sukses, malu untuk gagal Motivasi luar: Pujian Tanda-tanda kecemasan dalam pelajaran Menghindari dari guru Mudah panik Susah fokus TIdak mau menjadi pusat perhatian Pesimis Malas belajar karena kurang paham Blank menjelang ujian Keringat dingin Takut melihat banyak simbol Guru perlu mewujudkan pembelajaran matematika yang mengurangi kecemasan siswa sekaligus meningkatkan motivasi Diskusi Agar diskusi lebih optimal, terdiri dari 3-5 org (rekomendasi 4), terdiri dari murid heterogen (yang rangking tinggi menyebar di segala kelompok) Teori Belajar Thorndike Belajar adalah proses interaksi antara stimulus dan respon. Belajar akan lebih berhasil jika diikuti dengan rasa senang/ kepuasan. Teori Connectionisme atau jg teori trial and error. Orang yang berhasil dalam belajar adalah orang yang mampu menguasai hubungan antara stimulus dan respon Untuk membangun hubungan stimulus dan respon perlu berlatih secara berulang. Teori Belajar Pavlov Percobaan: Anjing kasih makan, ngiler Anjing kasih lonceng, ga ngiler Anjing kasih makan dan lonceng, ngiler Ketiga tahap diatas diulang ulang, sehingga Anjing kasih lonceng, ngiler Percobaan, mengurangi stimulus dari waktu ke waktu. Pada teori Pavlov, faktor-faktor lain diabaikan Teori Belajar Ausubel Buatlah pembelajaran yang bermakna Teori belajar bermakna sehingga anak dapat mengaitkan materi sebelumnya dengan materi yang akan dipelajari. Tidak bermakna ketika murid tidak/kurang dapat mengaitkan konsep yang telah dipelajari, sehingga murid cenderung menghafal Macam-macam Penemuan bermakna : Mudah dipahami Penemuan tidak bermakna: Otodidak, dihafal sendiri Penerimaan bermakna Penerimaan tidak bermakna : Dihafal Macam-macam tersebut dapat dilihat dari kemampuan siswa mengaitkan konsep yang telah dipelajari. Keunggulan Informasi yang dipelajari secara bermakna lebih lama diingat. Secara bermakna maksudnya dapat mengaitkan dengan konsep-konsep sebelumnya. Konsep yang terlupakan masih membekas, sehingga siswa masih dapat dengan mudah memanggil kembali ingatannya. Kelemahan Banyak menyita waktu Dapat diatasi guru, dengan guru memahami peta konsep dan melakukan perencanaan waktu yang matang, juga murid mencatat pengetahuannya. Dibagian pendahuluan, ada bagian apersepsi, untuk mengingatkan kembali ke murid materi yang telah dipelajari, sebagai dasar materi baru yang akan dipelajari. Relevansi Siswa berperan aktif dalam pembelajaran sehingga siswa dapat menyusun sendiri ingatan kognitifnya. Matematika adalah penerapan sehari-hari, jangan dibiarkan dalam bentuk “jadi” Teori Gagne Belajar adalah kegiatan yang komplek Objek langsung: Keterampilan, fakta, konsep, aturan Fase motivasi Pengenalan Perolehan Retensi Pemanggilan Generalisasi Penampilan Umpan balik]]></summary></entry><entry><title type="html">Pd eksak</title><link href="http://localhost:4000/2023/01/12/PD-Eksak.html" rel="alternate" type="text/html" title="Pd eksak" /><published>2023-01-12T00:00:00+07:00</published><updated>2023-01-12T00:00:00+07:00</updated><id>http://localhost:4000/2023/01/12/PD%20Eksak</id><content type="html" xml:base="http://localhost:4000/2023/01/12/PD-Eksak.html"><![CDATA[<p>Persamaan eksak \(\frac{dy}{dx}=0\)</p>
-
-\[\begin{array}{rcl}
-    dy+(4y-8y^{-3})xdx&amp;=&amp;0\\
-                    dy&amp;=&amp;-(4y-8y^{-3})xdx\\
-\end{array}\]
-
-<h1 id="referensi">Referensi</h1>
-
-<p>Buku ROss</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Persamaan eksak \(\frac{dy}{dx}=0\)]]></summary></entry><entry><title type="html">Pd rangkuman</title><link href="http://localhost:4000/2023/01/12/PD-Rangkuman.html" rel="alternate" type="text/html" title="Pd rangkuman" /><published>2023-01-12T00:00:00+07:00</published><updated>2023-01-12T00:00:00+07:00</updated><id>http://localhost:4000/2023/01/12/PD%20Rangkuman</id><content type="html" xml:base="http://localhost:4000/2023/01/12/PD-Rangkuman.html"><![CDATA[<h2 id="bentuk-umum">Bentuk Umum</h2>
-
+</ul>]]></content><author><name>HE Tao</name></author><category term="Jekyll" /><summary type="html"><![CDATA[Konsep Konsep dibentuk melalui proses abstraksi contoh diperkuat dengan contoh yang salah sehingga siswa mampu menggolongkan yang benar dan salah. DILARANG MENGAWALI MATERI DENGAN DEFINISI/ RUMUS Skema Skema tersusun dari beberapa konsep yang saling berhubungan. Berpikir secara skematis untuk menghubungkan antar konsep agar mudah dipanggil ulang. Bagian penting di RPP Apersepsi: Mengecek konsep yang ada di benak siswa, apakah sudah siap belajar. Bisa dengan memberi kuis kecil (dengan menghindari pertanyaan yang bisa dijawab massal, karena “tidak memberikan info apa-apa”), menunjuk siswa Motivasi Tujuan pembelajaran Setelah beberapa pertemuan, perlu membuat rangkuman dari beberapa konsep Kecerdasan Intuitif: Memahami sesuatu tanpa banyak dipikirkan/dipelajari Kecerdasan reflektif: … Modal utama guru Menguasai materi yang diajarkan Jika tidak, maka guru akan kehilangan rasa hormat, tidak dianggap oleh murid Jika tidak bisa menjawab pertanyaan murid, “dijawab nanti/ bsk ingatkan lagi” Jangan salah konsep Memahami bahwa siswa beragam dalam berbagai aspek (kecerdasan, ltr blkng, …) Guru membantu siswa meraih prestasi optimal apapun jenis kecerdasannya oleh karena itu perlu ilustrasi berbeda-beda. Kecerdasan intuitif bekerjasama dengan reflektif Intuitif memberikan ide awal terhadap suatu soal Melatih dengan mencongak untuk reflektif Belajar membuktikan rumus untuk intuitif Orang yang cenderung intuitif cepat merespon sehingga sering mendominasi kelas dan teman yang lain menjadi apatis (“Mesti dijawab dia”), selain itu menjadikan yang lain berpikir “kok bisa?”. Alangkah lebih baik guru memberikan pengantar sebelum soal keluar, sehingga semua bisa menjawab, bukan hanya yang intuitif. Guru juga membuktikan rumus yang belum terbukti. Guru baik adalah guru yang menguasai materi dan menjelaskan dengan jelas, serta The best teachers are those who are still active learners. Guru dapat belajar dari pengalaman sendiri, maupun belajar dari bagaimana siswa belajar. Pengalaman dapat menjadi guru terbaik apabila seseorang ingin belajar dari pengalaman Simbol Simbol sebagai alat komunikasi dan penjelas, bagian yang paling penting adalah makna dari simbol tersebut. Tipe-tipe pendengar/ pembaca: Belum mengetahui sama sekali, tetapi ingin tahu Mengetahui secara umum, tetapi belum mengetahui detailnya Sudah tahu banyak, tetapi sengaja ingin mencari celah (menyalahkan) Belum mengetahui dan tidak ingin tahu Sebelum memasuki kelas, hal pertama dan utama adalah guru menguasai materi yang diajarkan (jika bisa, melebihi materi yang sedang diajarkan). Memikirkan bagaimana caranya agar materi dengan dapat dengan mudah diapahami oleh murid Merancang pembelajaran yang menyenangkan Mengantisipasi pertanyaan siswa Memicu rasa ingin tahu Memikirkan detail suatu simbol, misal garis sejajar, tanda pada segitiga siku-siku. Konsep itu abstrak, namun dapat disimbolkan Konsep dapat diwujudkan dalam tanda-tanda (Simbol/lambang) Dibalik sebuah lambang, terdapat arti, maka harus konsisten dalam menggunakan lambang. Nama barang bisa berubah, tetapi barangnya tetap (Misal: satu, siji, one, setunggal) Simbol dapat digunakan untuk mencatat pengetahuan. Misal gagasan hanya ada di pikiran, tidak ada yang bisa tahu kecuali diri sendiri, oleh karena itu perlu dicatat/ dikomunikasikan sehingga jika kita meninggal, ilmu itu tidak hilang. Isi pikiran tidak dapat diamati secara langsung. Untuk mengetahui isi pikiran siswa (pemahaman), guru meminta siswa menyelesaikan soal. Jangan membebani psikologis murid Apabila menulis rumus, beri keterangan Misal : \(\int^b_a f(x)dx= F(b)-F(a)\)             \(b\) = batas atas             \(a\) = batas bawah             \(f(x)\) = batas variabel Membentuk konsep baru Konsep primer: dapat tanpa lambang Konsep sekunder: menunjukkan persamaan/ hubungan dengan lambang Suatu obyek dapat digolongkan menjadi beberapa cara, misal bilangan \(64=8^2=4^3=100-36\) \(4x^2-12xy+9y^2\) tidak negatif, karena bisa diubah menjadi \((2x-3y)^2\) sehingga pasti tidak negatif Semakin banyak kita menggolongkan sesuatu, semakin banyak masalah yang dapat dipecahkan Simbol/ lambang digunakan untuk komunikasi/ memberikan penjelasan Penyebab gagal: Kemungkinan digunakan skema yang salah Celah antara gagasan baru dengan skema yang sudah ada terlalu besar Skema yang sudah ada mungkin tidak mampu menyerap gagasan baru tanpa penyesuaian Faktor-faktor yang mempengaruhi hasil belajar Motivasi Kepercayaan diri Kecemasan Simbol Verbal dan Simbol Visual Simbol visual: Sulit dikomunikasikan, bersifat lebih ke individual (misal, geometri) Simbol verbal: Mudah dikomunikasikan, bsersifat lebih umum (misal, persamaan, aljabar) Contoh: Gambar segitiga =&gt; Simbol visual                 Ukuran pada segitiga =&gt; Simbol verbal Cemas Kecemasan dalam batas wajar bisa mmenjadi motivasi Motivasi dalam: keingingan sukses, malu untuk gagal Motivasi luar: Pujian Tanda-tanda kecemasan dalam pelajaran Menghindari dari guru Mudah panik Susah fokus TIdak mau menjadi pusat perhatian Pesimis Malas belajar karena kurang paham Blank menjelang ujian Keringat dingin Takut melihat banyak simbol Guru perlu mewujudkan pembelajaran matematika yang mengurangi kecemasan siswa sekaligus meningkatkan motivasi Diskusi Agar diskusi lebih optimal, terdiri dari 3-5 org (rekomendasi 4), terdiri dari murid heterogen (yang rangking tinggi menyebar di segala kelompok) Teori Belajar Thorndike Belajar adalah proses interaksi antara stimulus dan respon. Belajar akan lebih berhasil jika diikuti dengan rasa senang/ kepuasan. Teori Connectionisme atau jg teori trial and error. Orang yang berhasil dalam belajar adalah orang yang mampu menguasai hubungan antara stimulus dan respon Untuk membangun hubungan stimulus dan respon perlu berlatih secara berulang. Teori Belajar Pavlov Percobaan: Anjing kasih makan, ngiler Anjing kasih lonceng, ga ngiler Anjing kasih makan dan lonceng, ngiler Ketiga tahap diatas diulang ulang, sehingga Anjing kasih lonceng, ngiler Percobaan, mengurangi stimulus dari waktu ke waktu. Pada teori Pavlov, faktor-faktor lain diabaikan Teori Belajar Ausubel Buatlah pembelajaran yang bermakna Teori belajar bermakna sehingga anak dapat mengaitkan materi sebelumnya dengan materi yang akan dipelajari. Tidak bermakna ketika murid tidak/kurang dapat mengaitkan konsep yang telah dipelajari, sehingga murid cenderung menghafal Macam-macam Penemuan bermakna : Mudah dipahami Penemuan tidak bermakna: Otodidak, dihafal sendiri Penerimaan bermakna Penerimaan tidak bermakna : Dihafal Macam-macam tersebut dapat dilihat dari kemampuan siswa mengaitkan konsep yang telah dipelajari. Keunggulan Informasi yang dipelajari secara bermakna lebih lama diingat. Secara bermakna maksudnya dapat mengaitkan dengan konsep-konsep sebelumnya. Konsep yang terlupakan masih membekas, sehingga siswa masih dapat dengan mudah memanggil kembali ingatannya. Kelemahan Banyak menyita waktu Dapat diatasi guru, dengan guru memahami peta konsep dan melakukan perencanaan waktu yang matang, juga murid mencatat pengetahuannya. Dibagian pendahuluan, ada bagian apersepsi, untuk mengingatkan kembali ke murid materi yang telah dipelajari, sebagai dasar materi baru yang akan dipelajari. Relevansi Siswa berperan aktif dalam pembelajaran sehingga siswa dapat menyusun sendiri ingatan kognitifnya. Matematika adalah penerapan sehari-hari, jangan dibiarkan dalam bentuk “jadi” Teori Gagne Belajar adalah kegiatan yang komplek Objek langsung: Keterampilan, fakta, konsep, aturan Fase motivasi Pengenalan Perolehan Retensi Pemanggilan Generalisasi Penampilan Umpan balik]]></summary></entry><entry><title type="html">Persamaan Diferensial-Rangkuman</title><link href="http://localhost:4000/jekyll-gitbook/2023-01-12-PD-Rangkuman.html" rel="alternate" type="text/html" title="Persamaan Diferensial-Rangkuman" /><published>2023-01-12T00:00:00+07:00</published><updated>2023-01-12T00:00:00+07:00</updated><id>http://localhost:4000/jekyll-gitbook/PD-Rangkuman</id><content type="html" xml:base="http://localhost:4000/jekyll-gitbook/2023-01-12-PD-Rangkuman.html"><![CDATA[<h2 id="bentuk-umum">Bentuk Umum</h2>
 <h4 id="bentuk-derivative">Bentuk Derivative</h4>
 
-<p>\(\bbox[5px, border: 2px solid red]{\frac{dy}{dx}=f(x,y)}\).</p>
+\[\bbox[5px, border: 2px solid red]{\frac{dy}{dx}=f(x,y)}\]
 
 <h4 id="bentuk-differensial">Bentuk Differensial</h4>
 
-<p>\(\bbox[5px, border: 2px solid red]{M(x,y)dx+N(x,y)dy=0}\).</p>
+\[\bbox[5px, border: 2px solid red]{M(x,y)dx+N(x,y)dy=0}\]
 
 <p><strong>Contoh</strong></p>
 
 <p>Persamaan dalam bentuk derivative</p>
 
-<p>\(\frac{dy}{dx}=2xy\).</p>
+\[\frac{dy}{dx}=2xy\]
 
 <p>Persamaan dalam dbntuk differensial</p>
 
-<p>\(2xdx+ydy=0\).</p>
+\[2xdx+ydy=0\]
 
 <h2 id="persamaan-diferensial-eksak">Persamaan Diferensial Eksak</h2>
 
@@ -437,9 +462,9 @@
 
 <p>Diferensial total \(dF\) fungsi \(F\) didefinisikan sebagai berikut:</p>
 
-<p>\(\bbox[5px, border: 2px solid red]{dF(x,y)=\frac{\partial F}{\partial x} dx + \frac{\partial F}{\partial y}dy}\).</p>
+\[\bbox[5px, border: 2px solid red]{dF(x,y)=\frac{\partial F}{\partial x} dx + \frac{\partial F}{\partial y}dy}\]
 
-<p>untuk semua \((x,y) \in D\).</p>
+<p>untuk semua \((x,y) \in D\)</p>
 
 <p>Contoh: \(F(x,y) = xy^2 + 2x^3y\)</p>
 
@@ -463,11 +488,21 @@
 
 <p>Jika terdapat \(\mu (x,y)\) sedemikian sehingga mengakibatkan PD tidak eksak, menjadi PD eksak atau \(\bbox[5px, border: 2px solid red]{\frac{\partial M}{\partial y}(x,y)\neq \frac{\partial N}{\partial x}(x,y)}\) menjadi \(\bbox[5px, border: 2px solid red]{\mu (x,y) \frac{\partial M}{\partial y}(x,y) = \mu (x,y) \frac{\partial N}{\partial x}(x,y)}\) maka \(\mu (x,y)\) tersebut merupakan faktor integrasi</p>
 
+<h4 id="mencari-faktor-integrasi">Mencari Faktor Integrasi</h4>
+
+\[\bbox[5px, border: 2px solid red]
+{\mu (x)= e^{\int{\frac{\frac{\partial M}{\partial y}-\frac{\partial N}{\partial x}}{N}dx}}}\]
+
+<p>atau</p>
+
+\[\bbox[5px, border: 2px solid red]
+{\mu (y)= e^{\int{\frac{\frac{\partial N}{\partial x}-\frac{\partial M}{\partial y}}{M}dy}}}\]
+
 <h2 id="persamaan-diferensial-separable">Persamaan Diferensial Separable</h2>
 
 <p>Yaitu persamaan diferensial dalam bentuk
 \(\bbox[5px, border: 2px solid red]
-{F(x)G(y)dx + f(x)g(y)dy}\).</p>
+{F(x)G(y)dx + f(x)g(y)dy}\)</p>
 
 <h4 id="solusi-pd-separable">Solusi PD Separable</h4>
 
@@ -477,4 +512,540 @@
 
 <h2 id="persamaan-diferensial-homogen">Persamaan Diferensial Homogen</h2>
 
-<p>Persamaan diferensial <strong>orde satu</strong> \(M(x,y)dx+N(x,y)dy=0\) dikatakan dalam bentuk derivatif \(\frac{dy}{dx}=f(x,y)\) maka terdapat suatu fungsi g sedemikian sehingga f(x,y) dapat dinyatakan dalam bentuk \(g(\frac{y}{x})\)</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Bentuk Umum]]></summary></entry><entry><title type="html">Pd separable</title><link href="http://localhost:4000/2023/01/12/PD-Separable.html" rel="alternate" type="text/html" title="Pd separable" /><published>2023-01-12T00:00:00+07:00</published><updated>2023-01-12T00:00:00+07:00</updated><id>http://localhost:4000/2023/01/12/PD%20Separable</id><content type="html" xml:base="http://localhost:4000/2023/01/12/PD-Separable.html"><![CDATA[]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry></feed>
+<p>Persamaan diferensial <strong>orde satu</strong> \(M(x,y)dx+N(x,y)dy=0\) dikatakan dalam bentuk derivatif \(\frac{dy}{dx}=f(x,y)\) maka terdapat suatu fungsi g sedemikian sehingga f(x,y) dapat dinyatakan dalam bentuk \(g(\frac{y}{x})\)</p>
+
+<h4 id="solusi-pd-homogen">Solusi PD Homogen</h4>
+
+<p>Dengan perubahan variabel y=vx, akan mentransformasi PD homogen menjadi PD separable dalam variabel x dan v.</p>
+
+<h2 id="persamaan-diferensial-linear">Persamaan Diferensial Linear</h2>
+
+<p>Yaitu suatu persamaan diferensial biasa orde satu yang dapat dinyatakan dalam bentuk derivatif</p>
+
+\[\bbox[5px, border: 2px solid red]
+{\frac{dy}{dx}+P(x)y=Q(x)}\]
+
+<p>atau dalam bentuk diferensial</p>
+
+\[\bbox[5px, border: 2px solid red]
+{[P(x)y-Q(x)]dx+dy=0}\]
+
+<h2 id="persamaan-diferensial-bernoulli">Persamaan Diferensial Bernoulli</h2>
+
+<p>Yaitu persamaan diferensial dalam bentuk</p>
+
+\[\bbox[5px, border: 2px solid red]
+{\frac{dy}{dx}+P(x)y=Q(x)y^n}\]
+
+<h2 id="persamaan-diferensial-orde-tinggi">Persamaan Diferensial Orde Tinggi</h2>
+
+<p>Persamaan diferensial biasa orde-n dengan x variabel independen dan y variabel dependen adalah persamaan yang dapat dinyatakan dalam bentuk</p>
+
+\[\bbox[5px, border: 2px solid red]
+{a_0(x)\frac{d^ny}{dx^n}+a_1(x)\frac{d^{n-1}}{dx^{n-1}}+\cdots+a_{n-1}(x)\frac{dy}{dx}+a_n(x)y=F(x)}\]
+
+<p>dengan \(a_0(x)\neq0\)</p>
+
+<p>Untuk \(F(x)=0\) disebut dengan PD linear orde-n homogen.</p>
+
+<p>Untuk \(F(x)\neq0\) disebut dengan PD linear orde-n nonhomogen.</p>
+
+<h4 id="bebas-linear">Bebas Linear</h4>
+
+<p>n buah fungsi, \(f_1,f_2,\cdots,f_n\) disebut bebas linear pada \(a\leq x\leq b\) jika hubungan</p>
+
+\[\bbox[5px, border: 2px solid red]{c_1f_1(x)+c_2f_2(x)+\cdots+c_nf_n(x)=0}\]
+
+<p>untuk semua x pada intercal dipenuhi hanya untuk</p>
+
+\[\bbox[5px, border: 2px solid red]{c_1=c_2=\cdots=c_n=0}\]
+
+<p>Jika terdapat \(c_i\neq 0\) yang memenuhi hubungan tersebut, maka fungsi tersebut dikatakan bergantung linear.</p>
+
+<h4 id="wronskian">Wronskian</h4>
+<p>Jika</p>
+
+\[\bbox[5px, border: 2px solid red]{
+det \begin{bmatrix}
+f_1(x) &amp; f_2(x) &amp; \cdots &amp; f_n(x)\\
+f^`_1(x) &amp; f^`_2(x) &amp; \cdots &amp; f^`_n(x)\\
+         &amp;  \cdots &amp; &amp; \\
+f^{n-1}_1(x) &amp; f^{n-1}_2(x) &amp; \cdots &amp; f^{n-1}_n(x)
+\end{bmatrix} \neq 0}\]
+
+<p>Maka ke-n fungsi tersebut bebas linear</p>
+
+<h4 id="persamaan-diferensial-orde-tinggi-koefisien-konstan">Persamaan Diferensial Orde Tinggi Koefisien Konstan</h4>
+
+<p>\(\bbox[5px, border: 2px solid red]
+{a_0(x)\frac{d^ny}{dx^n}+a_1(x)\frac{d^{n-1}}{dx^{n-1}}+\cdots+a_{n-1}(x)\frac{dy}{dx}+a_n(x)y=0}\)
+Dapat disebut dengan PD linear orde-n homogen</p>
+
+<p>Untuk mencari penyelesaian, dapat digunakan <strong>persamaan karakteristik</strong>, yaitu dengan memisalkan</p>
+
+\[\bbox[5px, border: 2px solid red]{\frac{dy}{dx}=my,\ \ \ \frac{d^2y}{dx^2}=m^2y,\ \ \ \cdots,\ \ \ \frac{d^ky}{dx^k}=m^ky}\]
+
+<ol>
+  <li>
+    <p>Akar Berlainan
+ Misalkan akar-akar yaitu: \(m_1,m_2,\cdots,m_n\)</p>
+
+    <p>Maka diperoleh solusi berbeda, yaitu \(e^{m_1x},e^{m_2x},\cdots,e^{m_nx}\)</p>
+
+    <p>Untuk mengetahui apakah n solusi saling bebas linear, digunakan determinan matriks wronskiannya.</p>
+
+\[W=det \begin{bmatrix}
+ e^{m_1x} &amp; e^{m_2x} &amp; \cdots &amp; e^{m_nx}\\
+ m_1e^{m_1x} &amp; m_2e^{m_2x} &amp; \cdots &amp; m_ne^{m_nx}\\
+      &amp;  \cdots &amp; &amp; \\
+ m_1^{n-1}e^{m_1x} &amp; m^{n-1}_2e^{m_2x} &amp; \cdots &amp; m^{n-1}_ne^{m_1x}
+ \end{bmatrix} \neq 0\]
+  </li>
+  <li>Akar Kembar
+    <ul>
+      <li>Jika akar persamaan karakteristik m muncul sebanyak k kali, maka solusi umum yang bersesuaian dengan akar adalah</li>
+    </ul>
+
+\[y=(c_1+c_2x+c_3x^2+\cdots+c_kx^{k-1})e^mx\]
+
+    <ul>
+      <li>Jika akar-akar kembar yang lain merupakan akar yang berlainan \(m_{k+1},\cdots,m_n\) maka solusi umumnya adalah</li>
+    </ul>
+
+\[y=(c_1+c_2x+c_3x^2+\cdots+c_kx^{k-1})e^{mx}+c_{k+1}e^{m_{k+1}x}+\cdots+c_ne^{m_nx}\]
+
+    <ul>
+      <li>Jika akar-akar yang lain juga terdapat akar kembar, maka solusi umum yang bersesuaian dengan akar ini dinyatakan ekuivalen dengan cara bagian 1.</li>
+    </ul>
+  </li>
+  <li>
+    <p>Akar Komplek</p>
+
+    <p>Jika \(m_{1,2}=a\pm bi\), maka</p>
+
+    <p>$\bbox[5px, border: 2px solid red]{y_1=e^{ax}(c_1\sin(bx)+c_2\cos(bx))}$</p>
+
+    <p>Jika $a+bi$ dan $a-bi$ merupakan akar karakteristik yang berulang k-kali, maka solusi yang bersesuaian adalah</p>
+
+\[\bbox[5px, border: 2px solid red]
+ {\begin{align*}
+     y_2=e^{ax} [(c_1+c_2x+\cdots+c_kx^{k-1})&amp;\sin(bx)\\
+     +(c_{k+1}+c_{k+2}x+\cdots+c_{2k}x^{k-1})&amp;\cos(bx)] 
+ \end{align*}}\]
+  </li>
+</ol>
+
+<h4 id="persamaan-diferensial-orde-tinggi-variasi-parameter">Persamaan Diferensial Orde Tinggi Variasi Parameter</h4>
+
+\[{a_0(x)\frac{d^ny}{dx^n}+a_1(x)\frac{d^{n-1}}{dx^{n-1}}+\cdots+a_{n-1}(x)\frac{dy}{dx}+a_n(x)y=F(x)}\]
+
+<p>dengan $F(x)\neq 0$ disebut dengan PD nonhomogen.</p>
+
+<p>Solusi umum dari PD Nonhomogen dapat dinyatakan dalam bentuk</p>
+
+<p>$\bbox[5px, border: 2px solid red]{y=y_c+y_p}$</p>
+
+<p>dengan
+$y_c$ adalah solusi umum bagian homogen
+$y_p$ adalah solusi khusus</p>
+
+<p>$y_c(x)=c_1y_1(x)+c_2y_2(x)$</p>
+
+<p>$y_p(x)=v_1y_1(x)+v_2y_2(x)$</p>
+
+\[v_1(x)=-\int \frac{F(x)y_1(x)}{a_0W[y_1(x),y_2(x)]} dx,\ \ \ \ \ v_2(x)=\int \frac{F(x)y_2(x)}{a_0W[y_1(x),y_2(x)]}dx\]
+
+<h4 id="persamaan-diferensial-orde-tinggi-cauchy-euler">Persamaan Diferensial Orde Tinggi Cauchy-Euler</h4>
+
+<div class="table-wrapper">
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align: center"> </th>
+        <th style="text-align: center">UC $function$</th>
+        <th style="text-align: center">UC $set$</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align: center">1</td>
+        <td style="text-align: center">$x^n$</td>
+        <td style="text-align: center">\(\{x^n,x^{n-1},x^{n-2},\cdots,x,1\}\)</td>
+      </tr>
+      <tr>
+        <td style="text-align: center">2</td>
+        <td style="text-align: center">$e^{ax}$</td>
+        <td style="text-align: center">\(\{e^{ax}\}\)</td>
+      </tr>
+      <tr>
+        <td style="text-align: center">3</td>
+        <td style="text-align: center">$\sin(bx+c)$ atau $\cos(bx+c)$</td>
+        <td style="text-align: center">\(\{\sin(bx+c),\cos(bx+c)\}\)</td>
+      </tr>
+      <tr>
+        <td style="text-align: center">4</td>
+        <td style="text-align: center">$x^ne^{ax}$</td>
+        <td style="text-align: center">\(\{x^ne^{ax},x^{n-1}e^{ax},x^{n-2}e^{ax},\cdots,xe^{ax},e^{ax}\}\)</td>
+      </tr>
+      <tr>
+        <td style="text-align: center">5</td>
+        <td style="text-align: center">$x^n\sin(bx_c)$ atau $x^n\cos(bx_c)$</td>
+        <td style="text-align: center">\(\begin{align*} \{ &amp; x^n\sin(bx+c),x^n \cos(bx+c),\\&amp;x^{n-1}\sin(bx+c),x^{n-1}\cos(bx+c),\\ &amp;\cdots,x\sin(bx+c),x\cos(bx+c),\\ &amp;\sin(bx+c),\cos(bx+c)\} \end{align*}\)</td>
+      </tr>
+      <tr>
+        <td style="text-align: center">6</td>
+        <td style="text-align: center">$x^n\sin(bx+c),x^n\cos(bx+c)$</td>
+        <td style="text-align: center">\(\{e^{ax}\sin(bx+c),e^{ax}\cos(bx+c)\}\)</td>
+      </tr>
+      <tr>
+        <td style="text-align: center">7</td>
+        <td style="text-align: center">$x^ne^{ax}\sin(bx_c)$ atau $x^ne^{ax}\cos(bx_c)$</td>
+        <td style="text-align: center">\(\begin{align*} \{ &amp; x^ne^{ax}\sin(bx+c),x^ne^{ax} \cos(bx+c),\\&amp;x^{n-1}e^{ax}\sin(bx+c),x^{n-1}e^{ax}\cos(bx+c),\\ &amp;\cdots,xe^{ax}\sin(bx+c),xe^{ax}\cos(bx+c),\\ &amp;e^{ax}\sin(bx+c),e^{ax}\cos(bx+c)\} \end{align*}\)</td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>]]></content><author><name>HE Tao</name></author><summary type="html"><![CDATA[Bentuk Umum Bentuk Derivative]]></summary></entry><entry><title type="html">Tips, Warnings, and Dangers</title><link href="http://localhost:4000/jekyll-gitbook/jekyll/2022-06-30-tips_warnings_dangers.html" rel="alternate" type="text/html" title="Tips, Warnings, and Dangers" /><published>2022-06-30T00:00:00+07:00</published><updated>2022-06-30T00:00:00+07:00</updated><id>http://localhost:4000/jekyll-gitbook/jekyll/tips_warnings_dangers</id><content type="html" xml:base="http://localhost:4000/jekyll-gitbook/jekyll/2022-06-30-tips_warnings_dangers.html"><![CDATA[<p>The jekyll-theme supports tips, warnings, and dangers blocks and the style is referred
+from <a href="https://discordjs.guide/popular-topics/canvas.html#setting-up-napi-rs-canvas">the discord.js website</a>.</p>
+
+<p>You could have the following <a href="https://kramdown.gettalong.org/quickref.html#block-attributes">markdown attributes (supported by kramdown)</a>:</p>
+
+<h3 id="tips">Tips</h3>
+
+<p>Using a <code class="language-plaintext highlighter-rouge">{: .block-tip}</code> attribute:</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gt">&gt; ##### TIP</span>
+<span class="gt">&gt;</span>
+<span class="gt">&gt; This guide is last tested with @napi-rs/canvas^0.1.20, so make sure you have</span>
+<span class="gt">&gt; this or a similar version after installation.</span>
+{: .block-tip }
+</code></pre></div></div>
+
+<blockquote class="block-tip">
+  <h5 id="tip">TIP</h5>
+
+  <p>This guide is last tested with @napi-rs/canvas^0.1.20, so make sure you have
+this or a similar version after installation.</p>
+</blockquote>
+
+<h3 id="warnings">Warnings</h3>
+
+<p>Using a <code class="language-plaintext highlighter-rouge">{: .block-warning}</code> attribute:</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gt">&gt; ##### WARNING</span>
+<span class="gt">&gt;</span>
+<span class="gt">&gt; Be sure that you're familiar with things like async/await and object destructuring</span>
+<span class="gt">&gt; before continuing, as we'll be making use of features like these.</span>
+{: .block-warning }
+</code></pre></div></div>
+
+<blockquote class="block-warning">
+  <h5 id="warning">WARNING</h5>
+
+  <p>Be sure that you’re familiar with things like async/await and object destructuring
+before continuing, as we’ll be making use of features like these.</p>
+</blockquote>
+
+<h3 id="dangers">Dangers</h3>
+
+<p>Using a <code class="language-plaintext highlighter-rouge">{: .block-danger}</code> attribute:</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gt">&gt; ##### DANGER</span>
+<span class="gt">&gt;</span>
+<span class="gt">&gt; You cannot delete an ephemeral message.</span>
+{: .block-danger }
+</code></pre></div></div>
+
+<blockquote class="block-danger">
+  <h5 id="danger">DANGER</h5>
+
+  <p>You cannot delete an ephemeral message.</p>
+</blockquote>]]></content><author><name>Tao He</name></author><category term="Jekyll" /><summary type="html"><![CDATA[The jekyll-theme supports tips, warnings, and dangers blocks and the style is referred from the discord.js website.]]></summary></entry><entry><title type="html">Wide tables</title><link href="http://localhost:4000/jekyll-gitbook/jekyll/2022-06-26-wide_tables.html" rel="alternate" type="text/html" title="Wide tables" /><published>2022-06-26T00:00:00+07:00</published><updated>2022-06-26T00:00:00+07:00</updated><id>http://localhost:4000/jekyll-gitbook/jekyll/wide_tables</id><content type="html" xml:base="http://localhost:4000/jekyll-gitbook/jekyll/2022-06-26-wide_tables.html"><![CDATA[<p>A wide tables needs to be wrapped into a <code class="language-plaintext highlighter-rouge">div</code> with class <code class="language-plaintext highlighter-rouge">table-wrapper</code>
+to make sure it displayed as expected on mobile devices. For example,</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"table-wrapper"</span> <span class="na">markdown=</span><span class="s">"block"</span><span class="nt">&gt;</span>
+
+|title1|title2|title3|title4|title5|title6|title7|title8|
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+|1|2|3|4|5|6|7|8|
+|1|2|3|4|5|6|7|8|
+|1|2|3|4|5|6|7|8|
+|1|2|3|4|5|6|7|8|
+
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<p>Will be rendered as</p>
+
+<div class="table-wrapper">
+
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align: center">title1</th>
+        <th style="text-align: center">title2</th>
+        <th style="text-align: center">title3</th>
+        <th style="text-align: center">title4</th>
+        <th style="text-align: center">title5</th>
+        <th style="text-align: center">title6</th>
+        <th style="text-align: center">title7</th>
+        <th style="text-align: center">title8</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align: center">1</td>
+        <td style="text-align: center">2</td>
+        <td style="text-align: center">3</td>
+        <td style="text-align: center">4</td>
+        <td style="text-align: center">5</td>
+        <td style="text-align: center">6</td>
+        <td style="text-align: center">7</td>
+        <td style="text-align: center">8</td>
+      </tr>
+      <tr>
+        <td style="text-align: center">1</td>
+        <td style="text-align: center">2</td>
+        <td style="text-align: center">3</td>
+        <td style="text-align: center">4</td>
+        <td style="text-align: center">5</td>
+        <td style="text-align: center">6</td>
+        <td style="text-align: center">7</td>
+        <td style="text-align: center">8</td>
+      </tr>
+      <tr>
+        <td style="text-align: center">1</td>
+        <td style="text-align: center">2</td>
+        <td style="text-align: center">3</td>
+        <td style="text-align: center">4</td>
+        <td style="text-align: center">5</td>
+        <td style="text-align: center">6</td>
+        <td style="text-align: center">7</td>
+        <td style="text-align: center">8</td>
+      </tr>
+      <tr>
+        <td style="text-align: center">1</td>
+        <td style="text-align: center">2</td>
+        <td style="text-align: center">3</td>
+        <td style="text-align: center">4</td>
+        <td style="text-align: center">5</td>
+        <td style="text-align: center">6</td>
+        <td style="text-align: center">7</td>
+        <td style="text-align: center">8</td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>]]></content><author><name>Tao He</name></author><category term="Jekyll" /><summary type="html"><![CDATA[A wide tables needs to be wrapped into a div with class table-wrapper to make sure it displayed as expected on mobile devices. For example,]]></summary></entry><entry><title type="html">Page with cover image</title><link href="http://localhost:4000/jekyll-gitbook/jekyll/2022-05-24-page_cover.html" rel="alternate" type="text/html" title="Page with cover image" /><published>2022-05-24T00:00:00+07:00</published><updated>2022-05-24T00:00:00+07:00</updated><id>http://localhost:4000/jekyll-gitbook/jekyll/page_cover</id><content type="html" xml:base="http://localhost:4000/jekyll-gitbook/jekyll/2022-05-24-page_cover.html"><![CDATA[<p>The jekyll-gitbook theme supports adding a cover image to a specific page by adding
+a <code class="language-plaintext highlighter-rouge">cover</code> field to the page metadata:</p>
+
+<div class="language-diff highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  ---
+  title: Page with cover image
+  author: Tao He
+  date: 2022-05-24
+  category: Jekyll
+  layout: post
+<span class="gi">+ cover: /assets/jekyll-gitbook/dinosaur.gif
+</span>  ---
+</code></pre></div></div>]]></content><author><name>Tao He</name></author><category term="Jekyll" /><summary type="html"><![CDATA[The jekyll-gitbook theme supports adding a cover image to a specific page by adding a cover field to the page metadata:]]></summary></entry><entry><title type="html">How to Generate TOC</title><link href="http://localhost:4000/jekyll-gitbook/jekyll/2021-08-10-toc.html" rel="alternate" type="text/html" title="How to Generate TOC" /><published>2021-08-10T00:00:00+07:00</published><updated>2021-08-10T00:00:00+07:00</updated><id>http://localhost:4000/jekyll-gitbook/jekyll/toc</id><content type="html" xml:base="http://localhost:4000/jekyll-gitbook/jekyll/2021-08-10-toc.html"><![CDATA[<p>The jekyll-gitbook theme leverages <a href="https://github.com/allejo/jekyll-toc">jekyll-toc</a> to generate the <em>Contents</em> for the page.
+The TOC feature is not enabled by default. To use the TOC feature, modify the TOC
+configuration in <code class="language-plaintext highlighter-rouge">_config.yml</code>:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">toc</span><span class="pi">:</span>
+    <span class="na">enabled</span><span class="pi">:</span> <span class="no">true</span>
+</code></pre></div></div>
+
+<h2 id="why-this-repo">Why this repo</h2>
+
+<p>long contents …..</p>
+
+<ol>
+  <li>a</li>
+  <li>b</li>
+  <li>c</li>
+  <li>d</li>
+</ol>
+
+<h2 id="why-this-repo-1">Why this repo</h2>
+
+<p>long contents …..</p>
+
+<ul>
+  <li>1</li>
+  <li>2</li>
+  <li>3</li>
+  <li>4</li>
+</ul>
+
+<h2 id="why-this-repo-2">Why this repo</h2>
+
+<p>long contents …..</p>
+
+<ol>
+  <li>e</li>
+  <li>f</li>
+  <li>g</li>
+  <li>h</li>
+</ol>
+
+<h2 id="why-this-repo-3">Why this repo</h2>
+
+<ul>
+  <li>5</li>
+  <li>6</li>
+  <li>7</li>
+  <li>8</li>
+</ul>
+
+<h2 id="why-this-repo-4">Why this repo</h2>
+
+<p>long contents …..</p>
+
+<ol>
+  <li>a</li>
+  <li>b</li>
+  <li>c</li>
+  <li>d</li>
+</ol>
+
+<h2 id="why-this-repo-5">Why this repo</h2>
+
+<p>long contents …..</p>
+
+<ul>
+  <li>1</li>
+  <li>2</li>
+  <li>3</li>
+  <li>4</li>
+</ul>
+
+<h2 id="why-this-repo-6">Why this repo</h2>
+
+<p>long contents …..</p>
+
+<ol>
+  <li>e</li>
+  <li>f</li>
+  <li>g</li>
+  <li>h</li>
+</ol>
+
+<h2 id="why-this-repo-7">Why this repo</h2>
+
+<ul>
+  <li>5</li>
+  <li>6</li>
+  <li>7</li>
+  <li>8</li>
+</ul>
+
+<h2 id="why-this-repo-8">Why this repo</h2>
+
+<p>long contents …..</p>
+
+<ol>
+  <li>a</li>
+  <li>b</li>
+  <li>c</li>
+  <li>d</li>
+</ol>
+
+<h2 id="why-this-repo-9">Why this repo</h2>
+
+<p>long contents …..</p>
+
+<ul>
+  <li>1</li>
+  <li>2</li>
+  <li>3</li>
+  <li>4</li>
+</ul>
+
+<h2 id="why-this-repo-10">Why this repo</h2>
+
+<p>long contents …..</p>
+
+<ol>
+  <li>e</li>
+  <li>f</li>
+  <li>g</li>
+  <li>h</li>
+</ol>
+
+<h2 id="why-this-repo-11">Why this repo</h2>
+
+<ul>
+  <li>5</li>
+  <li>6</li>
+  <li>7</li>
+  <li>8</li>
+</ul>
+
+<h2 id="why-this-repo-12">Why this repo</h2>
+
+<p>long contents …..</p>
+
+<ol>
+  <li>a</li>
+  <li>b</li>
+  <li>c</li>
+  <li>d</li>
+</ol>
+
+<h2 id="why-this-repo-13">Why this repo</h2>
+
+<p>long contents …..</p>
+
+<ul>
+  <li>1</li>
+  <li>2</li>
+  <li>3</li>
+  <li>4</li>
+</ul>
+
+<h2 id="why-this-repo-14">Why this repo</h2>
+
+<p>long contents …..</p>
+
+<ol>
+  <li>e</li>
+  <li>f</li>
+  <li>g</li>
+  <li>h</li>
+</ol>
+
+<h2 id="why-this-repo-15">Why this repo</h2>
+
+<ul>
+  <li>5</li>
+  <li>6</li>
+  <li>7</li>
+  <li>8</li>
+</ul>]]></content><author><name>Tao He</name></author><category term="Jekyll" /><summary type="html"><![CDATA[The jekyll-gitbook theme leverages jekyll-toc to generate the Contents for the page. The TOC feature is not enabled by default. To use the TOC feature, modify the TOC configuration in _config.yml:]]></summary></entry><entry><title type="html">License</title><link href="http://localhost:4000/jekyll-gitbook/jekyll/2019-04-29-license.html" rel="alternate" type="text/html" title="License" /><published>2019-04-29T00:00:00+07:00</published><updated>2019-04-29T00:00:00+07:00</updated><id>http://localhost:4000/jekyll-gitbook/jekyll/license</id><content type="html" xml:base="http://localhost:4000/jekyll-gitbook/jekyll/2019-04-29-license.html"><![CDATA[<p>This work is open sourced under the Apache License, Version 2.0, using the
+same license as the original <a href="https://github.com/GitbookIO/gitbook">GitBook</a> repository.</p>
+
+<p>Copyright 2019 Tao He.</p>]]></content><author><name>Tao He</name></author><category term="Jekyll" /><summary type="html"><![CDATA[This work is open sourced under the Apache License, Version 2.0, using the same license as the original GitBook repository.]]></summary></entry><entry><title type="html">How to Get Started</title><link href="http://localhost:4000/jekyll-gitbook/jekyll/2019-04-28-howto.html" rel="alternate" type="text/html" title="How to Get Started" /><published>2019-04-28T00:00:00+07:00</published><updated>2019-04-28T00:00:00+07:00</updated><id>http://localhost:4000/jekyll-gitbook/jekyll/howto</id><content type="html" xml:base="http://localhost:4000/jekyll-gitbook/jekyll/2019-04-28-howto.html"><![CDATA[<p>The jekyll-gitbook theme can be used just as other <a href="https://pages.github.com/themes">Jekyll themes</a> and
+support <a href="https://github.com/sighingnow/jekyll-gitbook/fork">remote theme</a> on <a href="https://pages.github.com">Github Pages</a>, see <a href="https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll">the official guide</a>
+as well.</p>
+
+<p>You can introduce this jekyll theme into your own site by either</p>
+
+<ul>
+  <li><a href="https://github.com/sighingnow/jekyll-gitbook/fork">Fork</a> this repository and add your markdown posts to the <code class="language-plaintext highlighter-rouge">_posts</code> folder, then
+push to your own Github repository.</li>
+  <li>Use as a remote theme in your <a href="https://github.com/sighingnow/jekyll-gitbook/blob/master/_config.yml"><code class="language-plaintext highlighter-rouge">_config.yml</code></a>(just like what we do for this
+site itself),</li>
+</ul>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Configurations</span>
+<span class="na">title</span><span class="pi">:</span>            <span class="s">Jekyll Gitbook</span>
+<span class="na">longtitle</span><span class="pi">:</span>        <span class="s">Jekyll Gitbook</span>
+
+<span class="na">remote_theme</span><span class="pi">:</span>     <span class="s">sighingnow/jekyll-gitbook</span>
+</code></pre></div></div>
+
+<blockquote class="block-tip">
+  <h5 id="tip">TIP</h5>
+
+  <p>No need to push generated HTML bundle.</p>
+</blockquote>]]></content><author><name>Tao He</name></author><category term="Jekyll" /><summary type="html"><![CDATA[The jekyll-gitbook theme can be used just as other Jekyll themes and support remote theme on Github Pages, see the official guide as well.]]></summary></entry></feed>
