@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en" >
     <head><meta charset="UTF-8">
-<meta content="text/html; charset=utf-8" http-equiv="Content-Type"><title>Home · Jekyll Gitbook</title><meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"><title>Persamaan Diferensial-Eksak · Jekyll Gitbook</title><meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="description" content="Build Jekyll site with the GitBook style.
 "><meta name="generator" content="Jekyll (using style of GitBook 3.2.3)"><meta name="author" content="HE Tao"><link rel="stylesheet" href="/jekyll-gitbook/assets/gitbook/style.css">
 <link rel="stylesheet" href="/jekyll-gitbook/assets/gitbook/gitbook-plugin-fontsettings/website.css">
@@ -22,9 +22,9 @@
 
 
 
-
+            <link rel="prev" href="/jekyll-gitbook/2023-01-12-PD-Rangkuman.html" />
         
-            <link rel="next" href="/jekyll-gitbook/jekyll/2019-04-29-license.html" />
+
         
     </head>
     <body>
@@ -38,7 +38,7 @@
         </div>
         <ul class="summary">
             
-            <li class="chapter active" data-level="1.1" data-path="/jekyll-gitbook">
+            <li class="chapter" data-level="1.1" data-path="/jekyll-gitbook">
             
                 <a href="/jekyll-gitbook/">
                     Jekyll Gitbook
@@ -109,12 +109,15 @@
                         </li>
                     
                         
-                        <li class="chapter" data-level="1.1" data-path="/jekyll-gitbook/2023-01-16-PD-Eksak.html">
+                        <li class="chapter active" data-level="1.2" data-path="/jekyll-gitbook/2023-01-16-PD-Eksak.html">
                         
                             <a href="/jekyll-gitbook/2023-01-16-PD-Eksak.html">
                                 Persamaan Diferensial-Eksak
                             </a>
                             
+                                
+                                    
+
                                 
                             
                         </li>
@@ -140,7 +143,7 @@
                     <h1>
                         <i class="fa fa-circle-o-notch fa-spin"></i>
                         
-                            <a href="." >Home</a>
+                            <a href="." >Persamaan Diferensial-Eksak</a>
                         
                     </h1>
                 </div>
@@ -153,21 +156,44 @@
             <div class="search-noresults">
                 <section class="normal markdown-section">
                     
-                        <h1 id="">Home</h1>
+                        <h1 id="/PD-Eksak">Persamaan Diferensial-Eksak</h1>
                     
 
-                    <h1 id="selamat-datang-semuanya">SELAMAT DATANG SEMUANYA!!</h1>
+                    <ol>
+  <li>
+    <p>$(3x+2y)dx+(2x+y)dy=0$</p>
 
-<p>Selamat datang di website saya, saya upload banyak hal disini.
-Silakan boleh lihat-lihat.</p>
+    <ul>
+      <li>
+        <p>Menentukan apakah PD eksak</p>
 
-<p>mwehehe</p>
+\[M(x,y)=3x+2y \ \ \ \ 
+  N(x,y)=2x+y\]
 
-<h2 id="license">License</h2>
+\[\begin{align*}
+  \text{Eksak ketika } \frac{\partial M}{\partial y} &amp;= \frac{\partial N}{\partial x}\\
+  \frac{\partial (3x+2y)}{\partial y}=2 &amp; \ \ \ \frac{\partial (2x+y)}{\partial x}=2
+  \end{align*}\]
 
-<p>This work is open sourced under the Apache License, Version 2.0.</p>
+        <p>Maka PD tersebut merupakan PD eksak</p>
+      </li>
+      <li>
+        <p>Mencari solusi</p>
 
-<p>Copyright 2019 Tao He.</p>
+\[\begin{split}          
+  (3x+2y)dx+(2x+y)dy=0 \\
+  3xdx+2ydx+2xdy+ydy=0 \\
+  \bbox[5px, border: 1px solid black]{\int 3x dx =\frac{3}{2}x^2 \\ }\\
+  \bbox[5px, border: 1px solid black]{\int(2ydx+2xdy)=2\int(ydx+xdy)=2xy}\\
+  \bbox[5px, border: 1px solid black]{\int y dy = \frac{1}{2}y^2}\\
+  \frac{3}{2}x^2+2xy+\frac{1}{2}y^2=C
+  \end{split}\]
+      </li>
+    </ul>
+  </li>
+  <li>$(y^2+3)dx+(2xy-4)dy=0$</li>
+  <li>$(2xy+1)dx+(x^2+4y)dy=0$</li>
+</ol>
 
                 </section>
             </div><div class="search-results">
@@ -197,9 +223,11 @@ MathJax = {
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
 </script>
 
-                        <a href="/jekyll-gitbook/jekyll/2019-04-29-license.html" class="navigation navigation-next navigation-unique" aria-label="Next page: License">
-                            <i class="fa fa-angle-right"></i>
+                        <a href="/jekyll-gitbook/2023-01-12-PD-Rangkuman.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Persamaan Diferensial-Rangkuman">
+                            <i class="fa fa-angle-left"></i>
                         </a>
+                    
+
                     
                 </div>
             </div>
@@ -212,17 +240,6 @@ MathJax = {
         "title": "Introduction",
         "level": "1.1",
         "depth": 1,
-        
-
-        
-        "next": {
-            "title": "License",
-            "level": "1.2",
-            "depth": 1,
-            "path": "_posts/2019-04-29-license.md",
-            "ref": "_posts/2019-04-29-license.md",
-            "articles": []
-        },
         
         "dir": "ltr"
     },    "config": {
@@ -298,8 +315,8 @@ MathJax = {
         "gitbook": "*"
     },
     "file": {
-        "path": "README.md",
-        "mtime": "",
+        "path": "_posts/PersDif/2023-01-16-PD-Eksak.md",
+        "mtime": "2023-01-16 00:00:00 +0700",
         "type": "markdown"
     },
     "gitbook": {
