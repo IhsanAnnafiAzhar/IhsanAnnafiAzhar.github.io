@@ -10,3 +10,5 @@ gem 'jemoji'
 gem 'webrick'
 
 # gem "rails"
+
+gem 'jekyll-remote-theme', '~> 0.4.3'
