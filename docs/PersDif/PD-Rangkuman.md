@@ -151,6 +151,7 @@ Maka ke-n fungsi tersebut bebas linear
 
 $$\bbox[5px, border: 2px solid red]
 {a_0(x)\frac{d^ny}{dx^n}+a_1(x)\frac{d^{n-1}}{dx^{n-1}}+\cdots+a_{n-1}(x)\frac{dy}{dx}+a_n(x)y=0}$$
+
 Dapat disebut dengan PD linear orde-n homogen
 
 Untuk mencari penyelesaian, dapat digunakan **persamaan karakteristik**, yaitu dengan memisalkan
@@ -164,12 +165,12 @@ $$\bbox[5px, border: 2px solid red]{\frac{dy}{dx}=my,\ \ \ \frac{d^2y}{dx^2}=m^2
 
     Untuk mengetahui apakah n solusi saling bebas linear, digunakan determinan matriks wronskiannya.
 
-    $$W=det \begin{bmatrix}
+    $$\bbox[5px, border: 2px solid red]{W=det \begin{bmatrix}
     e^{m_1x} & e^{m_2x} & \cdots & e^{m_nx}\\
     m_1e^{m_1x} & m_2e^{m_2x} & \cdots & m_ne^{m_nx}\\
          &  \cdots & & \\
     m_1^{n-1}e^{m_1x} & m^{n-1}_2e^{m_2x} & \cdots & m^{n-1}_ne^{m_1x}
-    \end{bmatrix} \neq 0$$
+    \end{bmatrix} \neq 0}$$
 
 2. Akar Kembar
    + Jika akar persamaan karakteristik m muncul sebanyak k kali, maka solusi umum yang bersesuaian dengan akar adalah
@@ -218,7 +219,6 @@ $$v_1(x)=-\int \frac{F(x)y_1(x)}{a_0W[y_1(x),y_2(x)]} dx,\ \ \ \ \ v_2(x)=\int \
 
 #### Persamaan Diferensial Orde Tinggi Cauchy-Euler
 
-<div class="table-wrapper" markdown="block">
 ||UC $function$|UC $set$|
 |:-:|:-:|:-:|
 |1|$x^n$|$$\{x^n,x^{n-1},x^{n-2},\cdots,x,1\}$$|
@@ -229,4 +229,4 @@ $$v_1(x)=-\int \frac{F(x)y_1(x)}{a_0W[y_1(x),y_2(x)]} dx,\ \ \ \ \ v_2(x)=\int \
 |6|$x^n\sin(bx+c),x^n\cos(bx+c)$|$$\{e^{ax}\sin(bx+c),e^{ax}\cos(bx+c)\}$$|
 |7|$x^ne^{ax}\sin(bx_c)$ atau $x^ne^{ax}\cos(bx_c)$|$$\begin{align*} \{ & x^ne^{ax}\sin(bx+c),x^ne^{ax} \cos(bx+c),\\&x^{n-1}e^{ax}\sin(bx+c),x^{n-1}e^{ax}\cos(bx+c),\\ &\cdots,xe^{ax}\sin(bx+c),xe^{ax}\cos(bx+c),\\ &e^{ax}\sin(bx+c),e^{ax}\cos(bx+c)\} \end{align*}$$|
 
-</div>
+
