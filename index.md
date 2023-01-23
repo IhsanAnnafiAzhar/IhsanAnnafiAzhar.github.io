@@ -18,3 +18,6 @@ Alhamdulillah, layout baru wuhu
 > Jika ada kesalahan, mohon menghubungi admin untuk diperbaiki
 
 Atau kalau ada saran juga boleh hehe
+
+{: .note }
+Mohon maaf tidak banyak contoh di web ini, dikarenakan saya juga tidak terlalu yakin apakah jawaban saya benar atau tidak.
