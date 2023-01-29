@@ -24,8 +24,8 @@ Mohon maaf tidak banyak contoh di web ini, dikarenakan saya juga tidak terlalu y
 
 <form action="https://send.pageclip.co/NSaV7LkGvUnd6Q1kcKL7LGfoLI2onIAK" class="pageclip-form" method="post">
   <!-- Replace these inputs with your own. Make sure they have a "name" attribute! -->
-  <input type="text" name="name" value="Sebuah Web Site" />
-  <input type="email" name="email" value="ihsanannafi.2021@student.uny.ac.id" />
+  <input type="text" name="name" value="Nama" />
+  <input type="email" name="email" value="email" />
 
   <!-- This button will have a loading spinner. Keep the inner span for best results. -->
   <button type="submit" class="pageclip-form__submit">
