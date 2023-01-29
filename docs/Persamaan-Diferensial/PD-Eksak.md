@@ -4,6 +4,8 @@ title: Persamaan Diferensial-Eksak
 parent: Persamaan Diferensial
 ---
 
+
+
 1. $(3x+2y)dx+(2x+y)dy=0$
    
     + Menentukan apakah PD eksak
