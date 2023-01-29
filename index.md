@@ -18,3 +18,17 @@ Alhamdulillah, layout baru wuhu
 > Jika ada kesalahan, mohon menghubungi admin untuk diperbaiki
 
 Atau kalau ada saran juga boleh hehe
+
+{: .note }
+Mohon maaf tidak banyak contoh di web ini, dikarenakan saya juga tidak terlalu yakin apakah jawaban saya benar atau tidak.
+
+<form action="https://send.pageclip.co/NSaV7LkGvUnd6Q1kcKL7LGfoLI2onIAK" class="pageclip-form" method="post">
+  <!-- Replace these inputs with your own. Make sure they have a "name" attribute! -->
+  <input type="text" name="name" value="Sebuah Web Site" />
+  <input type="email" name="email" value="ihsanannafi.2021@student.uny.ac.id" />
+
+  <!-- This button will have a loading spinner. Keep the inner span for best results. -->
+  <button type="submit" class="pageclip-form__submit">
+    <span>Send</span>
+  </button>
+</form>
