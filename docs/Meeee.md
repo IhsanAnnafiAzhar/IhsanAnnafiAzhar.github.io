@@ -1,0 +1,3 @@
+
+
+Tadi aku mau ke parkiran, trus ada Pak Ali Mahmudi jalan dari barat. Aku sengaja berhenti biar bisa jalan di belakang Pak Ali. Habis itu Pak Ali nanya, dah selesai kuliahnya?. Trus aku jawab kalau dosennya gak ada, cuma dikasih tugas. Bapak tanya lagi, kuliah apa?. Aku jawab Teori Peluang. Bapak tanya dosennya siapa?. Aku lupa dosennya siapa hwhw. Trus Pak Ali nebak-nebak dosennya, tapi aku tetep bilang lupa. Trus pak Ali bilang, mungkin sedang ada tugas, aku bilang, ya mungkin. Habis itu aku bilang, duluan ya pak, karena mau ke parkiran ambil motor. hehe
