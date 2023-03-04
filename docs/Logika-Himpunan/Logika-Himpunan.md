@@ -168,7 +168,7 @@ Apabila diketahui $a \Rightarrow b$, maka
 
    + Kontraposisi [Kon]
     
-      $$p\Rightarrow q \Leftarrow \neg q \Rightarrow \neg p$$
+      $$p\Rightarrow q \Leftrightarrow \neg q \Rightarrow \neg p$$
     
    + Negasi Ganda [NG]
     
