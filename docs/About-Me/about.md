@@ -12,7 +12,7 @@ AAAA YES ITS WORK
 
 | head1        | head two          | three |
 |:-------------|:------------------|:------|
-| <details> <summary>Tips for collapsed sections</summary> ddddd </br> + vvv <br> + ddd </details> | good swedish fish | nice  |
+| <details markdown="block"> <summary>Tips for collapsed sections</summary> ddddd <br> + vvv </br> + ddd </details> | good swedish fish | nice  |
 | out of stock | good and plenty   | nice  |
 | ok           | good `oreos`      | hmm   |
 | ok           | good `zoute` drop | yumm  |
