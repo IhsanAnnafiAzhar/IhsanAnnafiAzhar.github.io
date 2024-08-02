@@ -3,6 +3,10 @@ layout: default
 title: MatDis
 ---
 
+RED IS RED
+BLUE IS BLUE
+read
+you
 
 ## Diberikan n nilai $x_1,\ x_2,\ \dots, x_n$ dengan $x_i \neq x_j, \forall i,j$
 
