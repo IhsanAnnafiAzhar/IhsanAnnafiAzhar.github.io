@@ -21,9 +21,3 @@ Atau kalau ada saran juga boleh hehe
 
 {: .note }
 Mohon maaf tidak banyak contoh di web ini, dikarenakan saya juga tidak terlalu yakin apakah jawaban saya benar atau tidak.
-
-<form action="https://send.pageclip.co/NSaV7LkGvUnd6Q1kcKL7LGfoLI2onIAK" class="pageclip-form" method="post">
-  <input type="text" name="name" value="nama" />
-  <input type="email" name="email" value="saran" />
-  <input type="submit" value="Kirim">
-</form>
