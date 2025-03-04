@@ -1,7 +1,7 @@
 ---
-title: Landing
+title: Belajar
 layout: landing
-description: 'Lorem ipsum dolor sit amet nullam consequa<br />sed veroeros. tempus adipiscing nulla.'
+description: "Yuk Belajar<br />Bersama kita wujudkan generasi penerus bangsa yang hebat dan berakhlak mulia."
 image: assets/images/pic07.jpg
 nav-menu: true
 ---

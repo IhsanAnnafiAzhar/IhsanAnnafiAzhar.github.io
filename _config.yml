@@ -1,8 +1,8 @@
 # site settings
 title: Ihsan
 subtitle: Annafi Azhar
-email: youremailaddress@gmail.com
-description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
+email: i.annafi.a27@gmail.com
+description: Website ini dibuat dengan template yang dibuat oleh dibuat oleh Andrew Banchich.
 baseurl: # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author: Ihsan Annafi Azhar
@@ -22,12 +22,12 @@ tiles-count: 6
 # Icons are not shown if value is empty
 # You need to restart jekyll for changes to have an effect
 socials:
-  GitHub: https://github.com/andrewbanchich
+  GitHub: https://github.com/ihsanannafiazhar
   GitLab:
-  Google-Plus: https://plus.google.com/u/0/+AndrewBanchich
-  Instagram:
-  LinkedIn: https://www.linkedin.com/in/andrew-banchich-a4ba1195
-  Twitter: https://twitter.com/andrewbanchich
+  Google-Plus:
+  Instagram: https://www.instagram.com/ihsan_dev_id/
+  LinkedIn:
+  Twitter:
   Facebook:
   Slack:
 

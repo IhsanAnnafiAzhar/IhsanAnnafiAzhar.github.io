@@ -29,13 +29,13 @@
 					<a href="mailto:{{ site.email }}">{{ site.email }}</a>
 				</div>
 			</section>
-			<section>
+			<!-- <section>
 				<div class="contact-method">
 					<span class="icon alt fa-phone"></span>
 					<h3>Phone</h3>
 					<a href="tel:{{ site.phone }}">{{ site.phone }}</a>
 				</div>
-			</section>
+			</section> -->
 			<section>
 				<div class="contact-method">
 					<span class="icon alt fa-home"></span>
@@ -59,6 +59,19 @@
 					</span>
 				</div>
 			</section>
+			<section>
+				<ul class="icons">
+					{% for key_value in site.socials %}
+						{% if key_value[1] %}
+							<li>
+								<a href="{{ key_value[1] }}" class="icon alt fa-{{ key_value[0] | downcase }}" target="_blank" rel="noopener noreferrer" aria-label="{{ key_value[0] }}">
+									<span class="label">{{ key_value[0] }}</span>
+								</a>
+							</li>
+						{% endif %}
+					{% endfor %}
+				</ul>
+			</section>
 		</section>
 	</div>
 </section>
@@ -66,7 +79,7 @@
 <!-- Footer -->
 	<footer id="footer">
 		<div class="inner">
-			<ul class="icons">
+			<!-- <ul class="icons">
 				{% for key_value in site.socials %}
 					{% if key_value[1] %}
 						<li>
@@ -76,7 +89,7 @@
 						</li>
 					{% endif %}
 				{% endfor %}
-			</ul>
+			</ul> -->
 			<ul class="copyright">
 				<li>&copy; {{ site.title }} {{ site.subtitle }}</li>
 				<li>Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a></li>
