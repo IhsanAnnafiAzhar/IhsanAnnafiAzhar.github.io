@@ -12,403 +12,433 @@ nav-menu: true
 <section id="one">
   <div class="inner">
     <header class="major">
-      <h1>Rumus Matematika</h1>
+      <h1>Kumpulan Rumus Matematika <em>Remastered</em> </h1>
     </header>
 
 <!-- Content -->
 <!-- h2 id="content">Sample Content h2-->
-<ul class="actions">
-  <li><a href="#eksponen" class="button scrolly">Eksponen</a></li>
-  <li><a href="#aljabar" class="button scrolly">Aljabar</a></li>
-  <li><a href="#pertidaksamaan" class="button scrolly">Pertidaksamaan</a></li>
-  <li><a href="#persamaan_garis" class="button scrolly">Persamaan Garis</a></li>
-  <li><a href="#fungsi_kuadrat" class="button scrolly">Fungsi Kuadrat</a></li>
-  <li><a href="#persamaan_kuadrat" class="button scrolly">Persamaan Kuadrat</a></li>
-  <li><a href="#lingkaran" class="button scrolly">Lingkaran</a></li>
-  <li><a href="#logika_matematika" class="button scrolly">Logika</a></li>
-  <li><a href="#suku_banyak" class="button scrolly">Suku Banyak</a></li>
-  <li><a href="#fungsi" class="button scrolly">Fungsi</a></li>
-  <li><a href="#limit" class="button scrolly">Limit</a></li>
-  <li><a href="#statistika" class="button scrolly">Statistika</a></li>
-  <li><a href="#peluang" class="button scrolly">Peluang</a></li>
-  <li><a href="#barisan_deret" class="button scrolly">Barisan dan Deret</a></li>
-  <li><a href="#matematika_keuangan" class="button scrolly">Keuangan</a></li>
-  <li><a href="#logaritma" class="button scrolly">Logaritma</a></li>
-  <li><a href="#geometri" class="button scrolly">Geometri</a></li>
-  <li><a href="#trigonometri" class="button scrolly">Trigonometri</a></li>
-  <li><a href="#vektor" class="button scrolly">Vektor</a></li>
-  <li><a href="#turunan" class="button scrolly">Turunan</a></li>
-  <li><a href="#integral" class="button scrolly">Integral</a></li>
-  <li><a href="#matriks" class="button scrolly">Matriks</a></li>
-  <li><a href="#transformasi_geometri" class="button scrolly">Transformasi Geometri</a></li>
-</ul>
 
-<hr class="major" />
-
-<div class="row">
-
-<div class="4u 12u$(medium)">
- 
-<section id="eksponen">
-  <h3 style="color: #9bf1ff">Eksponen</h3>
-    <ol>
-      <li>$$a^n = \underbrace{a \times a\times ... \times a}_{\text{(n kali)}}$$</li>
-      <li>$$a^0=1, a\neq 0$$</li>
-      <li>$$a^{-n}=\frac{1}{a^n}$$</li>
-      <li>$$a^m a^n = a^{m+n}$$</li>
-      <li>$$\frac{a^m}{a^n}=a^{m-n}$$</li>
-      <li>$$(ab)^n= a^n b^n$$</li>
-      <li>$$\Big(\frac{a}{b} \Big)^n=\frac{a^n}{b^n}$$</li>
-      <li>$$(a^m)^n=a^{mn}$$</li>
-      <li>$$a^{\frac{m}{n}}=\sqrt[n]{a^m}$$</li>
-    </ol>
-</section>
-
-<hr>
-
-<section id="aljabar">
-  <h3 style="color: #9bf1ff">Aljabar</h3>
-  <ol>
-    <li>$$(a+b)^2=a^2+b^2+2ab$$</li>
-    <li>$$(a-b)^2=a^2+b^2-2ab$$</li>
-    <li>$$a^2-b^2=(a+b)(a-b)$$</li>
-    <li>$$a^3+b^3=(a+b)(a^2-ab+b^2)$$</li>
-    <li>$$a^3-b^3=(a-b)(a^2+ab+b^2)$$</li>
-    <li>$$(a+b)^3=a^3+b^3+3ab(a+b)$$</li>
-    <li>$$(a-b)^3=a^3-b^3-3ab(a-b)$$</li>
-    <li>$$a^3+b^3+c^3-3abc$$$$=(a+b+c)(a^2+b^2+c^2-ab-bc-ac)$$</li>
-    <li>$$(a+b+c)^2=a^2+b^2+c^2+2(ab+bc+ac)$$</li>
-    <li>$$\sqrt{(a+b)\pm 2\sqrt{ab}}=\sqrt{a} \pm \sqrt{b}$$</li>
-  </ol>
-</section>
-
-<hr>
-
-<section id="pertidaksamaan">
-  <h3 style="color: #9bf1ff">Pertidaksamaan</h3>
-  <h4 class="notasi">Sifat-Sifat Pertidaksamaan</h4>
-  <p class="notasi"> Jika \(a > b\), maka </p>
-  <ol>
-    <li>\(a \pm p > b \pm p\)</li>
-    <li>\(ap > bp\) untuk \(p\) positif</li>
-    <li>\(ap < bp\) untuk \(p\) <strong>negatif</strong> (tanda berubah)</li>
-  </ol>
-
-  <p class="notasi">Jika \(a > b > 0\), maka</p>
-    <ol>
-      <li>\(a^2 > b^2\)</li>
-      <li>$$\frac{1}{a}< \frac{1}{b}$$</li>
-    </ol>
-  
-  <h4 class="notasi">Penyelesaian Pertidaksamaan</h4>
-    <ol>
-      <li>Tentukan \(\text{HP}_1\) dari syarat fungsi</li>
-      <li>Nol kan ruas kanan</li>
-      <li>Tentukan pembuat nol</li>
-      <li>Tulis ke dalam garis bilangan</li>
-      <li>Lakukan uji titik pada selang batas-batas pembuat nol</li>
-      <li>\(\text{HP}_2\) berada pada:</li>
-      <ul class="notasi">
-          <li>Jika \(f(x)>0\), maka ada pada selang positif</li>
-          <li>Jika \(f(x)<0\), maka ada pada selang negatif</li>
-      </ul>
-      <li>\(\text{HP}=\text{HP}_1 \cap \text{HP}_2\)</li>
-    </ol>
-  
-  <h4 class="notasi">Bentuk Akar</h4>
-    <p class="notasi">$$\sqrt{a} > \sqrt{b}$$</p>
-    <ol>
-      <li>Syarat domain, \(a\geq 0\) dan \(b \geq 0\)</li>
-      <li>Kuadratkan kedua ruas</li>
-      <li>\(\text{HP}=\text{HP}_1 \cap \text{HP}_2\)</li>
-    </ol>
-      
-  <h4 class="notasi">Harga Mutlak</h4>
-    <p>$$|x|=\begin{cases}x, &\text{untuk } x\geq 0 \\ -x, &\text{untuk }x <0 \end{cases}$$ </p>
-    <ol>
-      <li>\(|x|<a \leftrightarrow -a < x<a \)</li>
-      <li>\(|x|>a \leftrightarrow x>a \cup x<-a\)</li>
-    </ol>
-    <p class="notasi">Cara lain, yaitu dengan meng-kuadrat-kan kedua ruas:</p>
-    <p>$$\begin{align}|x|&>|y| \\ x^2 &>y^2\\x^2-y^2&>0\\(x+y)(x-y)&>0 \end{align}$$</p>
-    
-  <h4 class="notasi">Pertidaksamaan Eksponen</h4>
-    <p class="notasi">$$a^{f(x)}>a^{g(x)}$$</p>
-    <p class="notasi">Jika \(a>1\), maka \(f(x)>g(x)\) </p>
-    <p>Jika \(0<a<1\), maka \(f(x)<g(x)\) </p>
-  
-  <h4 class="notasi">Pertidaksamaan Logaritma</h4>
-    <p class="notasi">$$\log_{a}{f(x)}> \log_{a}{g(x)}$$</p>
-    <p class="notasi">Jika \(a>1\), maka \(f(x)>g(x)\)</p>
-    <p class="notasi">Jika \(0<a<1\), maka \(f(x)<g(x)\)</p>
-</section>
-
-<hr class="major">
-
-<section id="persamaan_garis">
-<h3 style="color: #9bf1ff">Persamaan Garis</h3>
-  <h4 class="notasi">Persamaan Garis</h4>
-  <ol>
-    <li>\(y=mx+c\)</li>
-    <li>$$\frac{y-y_1}{y_2-y_1}=\frac{x-x_1}{x_2-x_1}$$</li>
-    <li>\(y-y_1=m(x-x_1)\)</li>
-  </ol>
-    
-  <h4 class="notasi">Gradien \((m)\)</h4>
-  <p>Kemiringan suatu garis</p>
-  <span class="image" style="width:70%"><img src="{% link assets/images/gradien.svg %}" alt="" /></span>
-  <ol>
-  <li>\(y=mx+c\), gradien= \(m\)</li>
-  <li>\(ax+by+c=0\), <br> maka \(m=\dfrac{-a}{b}\)</li>
-  <li>Jika diketahui 2 titik, maka \(m=\dfrac{y_2-y_1}{x_2-x_1}\)</li>
-  <li>Jika diketahui sudut, maka \(m=tg \alpha\)</li>
-  </ol>
-
-  <h4 class="notasi">Hubungan Antar Garis</h4>
-  <p class="notasi">Jika terdapat 2 persamaan garis: $$y=m_1x+c_1//y=m_2x+c_2$$</p>
-  <ul>
-    <li>Sejajar: \(m_1=m_2\)</li>
-    <li>Tegak lurus: \(m_1m_2=-1\)</li>
-    <li>Berpotongan: \(tg \alpha = \left|\dfrac{m_1-m_2}{1+m_1m_2}\right|\)</li>
-  </ul>
-
-  <h4 class="notasi">Jarak Titik ke Garis</h4>
-  <p class="notasi">Jarak titik \((x_1,y_1)\) ke garis \(ax+by+c=0\) $$d=\left|\frac{ax_1+by_1+C}{\sqrt{a^2+b^2}}\right|$$</p>
-</section>
-
-<hr class="major">
-
-<section id="fungsi_kuadrat">
-<h3 style="color: #9bf1ff"> Fungsi Kuadrat</h3>
-  <h4 class="notasi">Bentuk Umum</h4>
-  <p>$$y=f(x)=ax^2+bx+c, a\neq 0$$</p>
-
-  <h4 class="notasi">Titik Puncak/Ekstrim/Min/Maks</h4>
-  <p class="notasi">
-  $$(x_p,y_p)=\left(\frac{-b}{2a},\frac{D}{-4a}\right)$$
-  </p>
-  <p class="notasi">
-  \(x_p=\) sumbu simetri <br>
-  \(y_p=\) nilai ekstrim <br>
-  \(x=\) absis </p>
-  <p>\(y=\) ordinat</p>
-
-  <h4 class="notasi">Menentukan Persamaan Fungsi Kuadrat</h4>
-  <p class="notasi">Jika diketahui:</p>
-  <ul>
-  <li>Tiga titik sembarang <br> \(y=ax^2+bx+c\)<br> (eliminasi)</li>
-  <li>Titik puncak<br> \(y-y_p=a(x-x_p)^2\)</li>
-  <li>Titik potong dengan sumbu \(x\)<br>\(y=a(x-x_1)(x-x_2)\)</li>
-  </ul>
-
-  <h4 class="notasi">Hubungan \(a,b,c\) dan \(D\) terhadap kurva</h4>
-  
-  <h4 class="notasi">Definit</h4>
-  <p>Definit positif: \(a>0\) dan \(D<0\)</p>
-  <p>Definit negatif: \(a<0\) dan \(D<0\)</p>
-
-</section>
-
-<hr class="major">
-
-<section id="persamaan_kuadrat">
-  <h3 style="color: #9bf1ff">Persamaan Kuadrat</h3>
-  <h4>Bentuk Umum</h4>
-    <p>$$ax^2+bx+c=0,\ a \neq 0$$</p>
-  <h4 class="notasi">Akar-Akar Persamaan Kuadrat</h4>
-    <p>$$x_{1,2}=\frac{-b\pm \sqrt{b^2-4ac}}{2a}$$</p>
-    <ul>
-      <li>$$D=b^2-4ac$$</li>
-      <li>$$D>0:$$ Akar riil berbeda</li>
-      <li>$$D=0:$$ Akar riil kembar</li>
-      <li>$$D<0:$$ Akar imajiner</li>
+    <ul class="actions">
+      <li><a href="#eksponen" class="button scrolly">Eksponen</a></li>
+      <li><a href="#aljabar" class="button scrolly">Aljabar</a></li>
+      <li><a href="#pertidaksamaan" class="button scrolly">Pertidaksamaan</a></li>
+      <li><a href="#persamaan_garis" class="button scrolly">Persamaan Garis</a></li>
+      <li><a href="#fungsi_kuadrat" class="button scrolly">Fungsi Kuadrat</a></li>
+      <li><a href="#persamaan_kuadrat" class="button scrolly">Persamaan Kuadrat</a></li>
+      <li><a href="#lingkaran" class="button scrolly">Lingkaran</a></li>
+      <li><a href="#logika_matematika" class="button scrolly">Logika</a></li>
+      <li><a href="#suku_banyak" class="button scrolly">Suku Banyak</a></li>
+      <li><a href="#fungsi" class="button scrolly">Fungsi</a></li>
+      <li><a href="#limit" class="button scrolly">Limit</a></li>
+      <li><a href="#statistika" class="button scrolly">Statistika</a></li>
+      <li><a href="#peluang" class="button scrolly">Peluang</a></li>
+      <li><a href="#barisan_deret" class="button scrolly">Barisan dan Deret</a></li>
+      <li><a href="#matematika_keuangan" class="button scrolly">Keuangan</a></li>
+      <li><a href="#logaritma" class="button scrolly">Logaritma</a></li>
+      <li><a href="#geometri" class="button scrolly">Geometri</a></li>
+      <li><a href="#trigonometri" class="button scrolly">Trigonometri</a></li>
+      <li><a href="#vektor" class="button scrolly">Vektor</a></li>
+      <li><a href="#turunan" class="button scrolly">Turunan</a></li>
+      <li><a href="#integral" class="button scrolly">Integral</a></li>
+      <li><a href="#matriks" class="button scrolly">Matriks</a></li>
+      <li><a href="#transformasi_geometri" class="button scrolly">Transformasi Geometri</a></li>
     </ul>
-  <h4 class="notasi">Operasi Akar-Akar</h4>
-  <ul>
-    <li>$$x_1+x_2=\frac{-b}{a}$$</li>
-    <li>$$x_1x_2=\frac{c}{a}$$</li>
-    <li>$$x_1-x_2=\pm \frac{\sqrt{D}}{a}$$</li>
-    <li>$$x_1^2+x_2^2=(x_1+x_2)^2-2 x_1 x_2$$</li>
-    <li>$$x_1^3+x_2^3=(x_1+x_2)^3-3x_1x_2(x_1+x_2)$$</li>
-    <li>$$\frac{1}{x_1}+\frac{1}{x_2}=\frac{x_1+x_2}{x_1x_2}$$</li>
-    <li>$$x_1^2-x_2^2=(x_1+x_2)(x_1-x_2)$$</li>
-  </ul>
-  <h4 class="notasi">Sifat Akar-Akar</h4>
-  <ul>
-    <li>Dua akar positif<br>$$x_1+x_2>0;x_1x_2>0;D\geq 0$$</li>
-    <li>Dua akar negatif<br>$$x_1+x_2<0;x_1x_2>0;D\geq 0$$</li>
-    <li>Saling berlawanan<br>$$x_1x_2<0;D> 0$$</li>
-    <li>Saling berkebalikan<br>$$x_1x_2=1<0;D> 0$$</li>
-  <ul>
-  <h4 class="notasi">Persamaan Kuadrat Baru</h4>
-  <p>Menyelesaikan pers. kuadrat baru</p>
-  <ol>
-    <li>Misalkan akar-akar barunya \(p\) dan \(q\)</li>
-    <li>Tentukan \(p+q\)</li>
-    <li>Tentukan \(pq\)</li>
-    <li>Subtitusi ke dalam pers. kuadrat baru $$x^2-(p+q)x+pq=0$$</li>
-  </ol>
-</section>
 
-<hr class="major">
+    <hr class="major" />
 
-<section id="lingkaran">
-  <h3 style="color: #9bf1ff">Lingkaran</h3>
-  <h4 class="notasi">Persamaan Lingkaran</h4>
-  <ul>
-    <li>Berpusat di \((0,0)\): \(x^2+y^2=R^2\)</li>
-    <li>Berpusat di \((a,b)\): \((x-a)^2+(y-b)^2=R^2\)</li>
-    <li>Umum: \(x^2+y^2+Ax+By+C=0\) <br> Pusat\(=\left(\dfrac{-A}{2},\dfrac{-B}{2}\right),R=\sqrt{\dfrac{A^2}{4}+\dfrac{B^2}{4}-C}\)</li>
-  </ul>
-  <h4 class="notasi">Hubungan Garis dan Lingkaran</h4>
-  <p>Subtitusi persamaan garis ke lingkaran</p>
-  <ul>
-    <li>Berpotongan di 2 titik: \(D>0\)</li>
-    <li>Bersinggungan: \(D=0\)</li>
-    <li>Tidak berpotongan: \(D<0\)</li>
-  </ul>
-  <h4 class="notasi">Persamaan Garis Singgung</h4>
-  <ol>
-    <li>PGSL untuk \(x^2+y^2=R^2\)</li>
-    <ol>
-      <li>\(x_1x+y_1y=R^2\)</li>
-      <li>\(y=mx\pm R\sqrt{m^2+1} \)</li>
-    </ol>
-    <li>PGSL untuk \((x-a)^2+(y-b)^2=R^2\)</li>
-    <ol>
-      <li>\((x_1-a)(x-a)+(y_1-b)(y-b)=R^2\)</li>
-      <li>\(y-b=m(x-a)\pm R\sqrt{m^2+1}\)</li>
-    </ol>
-    <li>PGSL untuk \(x^2+y^2+Ax+By+C=0\)
-    $$x_1x+y_1y+\frac{1}{2}A(x+x_1)+\frac{1}{2}B(y+y_1)+C=0$$</li>
-  </ol>
+    <div class="row">
+      <div class="6u 12u$(small)">
 
-  <h4 class="notasi">Panjang Garis Singgung 2 Lingkaran</h4>
-  <ul>
-    <li>Garis singgung luar</li>
-      <p>$$GL=\sqrt{l^2-(R-r)^2}$$</p>
-    <li>Garis singgung dalam</li>
-      <p>$$GD=\sqrt{l^2-(R+r)^2}$$</p>
-</section>
+        <section id="eksponen">
+          <h3 style="color: #9bf1ff">Eksponen</h3>
+          <ol>
+            <li>$$ a^n = \underbrace{a \times a\times ... \times a}_{\text{(n kali)}} $$</li>
+            <li>$$ a^0 = 1, a\neq 0 $$</li>
+            <li>$$a^{-n}=\frac{1}{a^n}$$</li>
+            <li>$$a^m a^n = a^{m+n}$$</li>
+            <li>$$\frac{a^m}{a^n}=a^{m-n}$$</li>
+            <li>$$(ab)^n= a^n b^n$$</li>
+            <li>$$\Big(\frac{a}{b} \Big)^n=\frac{a^n}{b^n}$$</li>
+            <li>$$(a^m)^n=a^{mn}$$</li>
+            <li>$$a^{\frac{m}{n}}=\sqrt[n]{a^m}$$</li>
+          </ol>
+        </section>
 
-<hr class="major">
+        <hr>
 
-<section id="logika_matematika">
-  <h3 style="color: #9bf1ff">Logika Matematika</h3>
-  <h4 class="notasi">Tabel Kebenaran</h4>
-  <div class="table-wrapper">
-  <table class="alt">
-    <thead>
-      <tr>
-        <th style="border:2px outset white">\(p\)</th>
-        <th style="border:2px outset white">\(q\)</th>
-        <th>\(p\vee q\)</th>
-        <th>\(p\wedge q\)</th>
-        <th>\(p\Rightarrow q\)</th>
-        <th>\(p\Leftrightarrow q\)</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td style="border:2px outset white">B</td>
-        <td style="border:2px outset white">B</td>
-        <td>B</td>
-        <td>B</td>
-        <td>B</td>
-        <td>B</td>
-      </tr>
-      <tr>
-        <td style="border:2px outset white">B</td>
-        <td style="border:2px outset white">S</td>
-         <td>B</td>
-        <td>S</td>
-        <td>S</td>
-        <td>S</td>
-      </tr>
-      <tr>
-        <td style="border:2px outset white">S</td>
-        <td style="border:2px outset white">B</td>
-        <td>B</td>
-        <td>S</td>
-        <td>B</td>
-        <td>S</td>
-      </tr>
-      <tr>
-        <td style="border:2px outset white">S</td>
-        <td style="border:2px outset white">S</td>
-        <td>S</td>
-        <td>S</td>
-        <td>B</td>
-        <td>B</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-  <h4 class="notasi">Negasi</h4>
-  <ol>
-    <li>\(\neg B= S\)</li>
-    <li>\(\neg S= B\)</li>
-    <li>\(\neg \forall = \exists \)</li>
-    <li>\(\neg \exists = \forall \)</li>
-    <li>\(\neg (p \Rightarrow q)=p\wedge\neg q\)</li>
-  </ol>
-  <h4 class="notasi">Ekuivalensi</h4>
-  <ul>
-    <li>\((p\Rightarrow q) \equiv (\neg q \Rightarrow \neg q) \equiv (\neg p \vee q)\)</li>
-    <li>\(\neg (p\vee q) \equiv \neg p \wedge \neg q\)</li>
-    <li>\(\neg (p\wedge q) \equiv \neg p \vee \neg q\)</li>
-    <li>\(\neg (p\Rightarrow q)\equiv p\wedge \neg q\)</li>
-  </ul>
-  <h4 class="notasi">Konvers, Invers, dan Kontraposisi</h4>
-  <p class="notasi">Diketahui \(p\Rightarrow q\) (implikasi), maka:</p>
-  <ul>
-    <li>Konver: \(q\Rightarrow p\)</li>
-    <li>Invers: \neg p \Rightarrow \neg q</li>
-    <li>Kontraposisi: \neg q \Rightarrow \neg p</li>
-  </ul>
-  <h4 class="notasi">Penarikan Kesimpulan</h4>
-  <ul>
-    <li>Modus Ponen</li>
-    <!-- Belum, mikir pembagianne-->
-    <li>Modus Tollen</li>
-    <!-- Belum, mikir pembagianne-->
-    <li>Sillogisme</li>
-    <!-- Belum, mikir pembagianne-->
-  </ul>
-</section>
+        <section id="aljabar">
+          <h3 style="color: #9bf1ff">Aljabar</h3>
+          <ol>
+            <li>$$(a+b)^2=a^2+b^2+2ab$$</li>
+            <li>$$(a-b)^2=a^2+b^2-2ab$$</li>
+            <li>$$a^2-b^2=(a+b)(a-b)$$</li>
+            <li>$$a^3+b^3=(a+b)(a^2-ab+b^2)$$</li>
+            <li>$$a^3-b^3=(a-b)(a^2+ab+b^2)$$</li>
+            <li>$$(a+b)^3=a^3+b^3+3ab(a+b)$$</li>
+            <li>$$(a-b)^3=a^3-b^3-3ab(a-b)$$</li>
+            <li>$$a^3+b^3+c^3-3abc$$$$=(a+b+c)(a^2+b^2+c^2-ab-bc-ac)$$</li>
+            <li>$$(a+b+c)^2=a^2+b^2+c^2+2(ab+bc+ac)$$</li>
+            <li>$$\sqrt{(a+b)\pm 2\sqrt{ab}}=\sqrt{a} \pm \sqrt{b}$$</li>
+          </ol>
+        </section>
 
-<hr class="major">
+        <hr>
 
-<section id="suku_banyak">
-  <h3 style="color: #9bf1ff">Suku Banyak</h3>
-  
-  <h4 class="notasi">Bentuk Umum</h4>
-  <p>$$f(x)=a_nx^n+a_{n-1}x^{x-1}+\ldots+a_1x+a_0$$</p>
-  <p>Keterangan: \(n=\) derajat suku banyak</p>
-  
-  <h4 class="notasi">Pembagian Suku Banyak</h4>
-  <p>$$f(x)=h(x)\cdot p(x)+s(x)$$</p>
-  <p>\(f(x)=\) suku banyak</p>
-  <p>\(h(x)=\) hasil bagi</p>
-  <p>\(p(x)=\) pembagi</p>
-  <p>\(s(x)=\) sisa<br></p>
-  
-  <p>Teorema Sisa</p>
-  <ul>
-    <li>Jika suatu suku banyak \(f(x)\) dibagi oleh \((x-k)\), maka sisanya adalah \(f(x)\)</li>
-    <li>Jika pembagi berderajat \(n\) maka sisanya berderajat \(n-1\)</li>
-    <li>Jika suku banyak berderajat \(m\) dan pembagi berderajat \(n\), maka hasil baginya berderajat \((m-n)\)</li>
-  </ul>
+        <section id="pertidaksamaan">
+          <h3 style="color: #9bf1ff">Pertidaksamaan</h3>
 
-  <p>Teorema Vieta</p>
-  <ul>
-    <li>Jumlah 1 akar \((x_1+x_2+\ldots+x_n)=\dfrac{-b}{a}\) </li>
-    <li>Jumlah 2 akar \((x_1x_2+x_1x_3+\ldots)=\dfrac{c}{a}\)</li>
-    <li>Jumlah 3 akar \((x_1x_2x_3+x_1x_2x_4+\ldots)=\dfrac{-d}{a}\)</li>
-    <li><em>Selanjutnya, ikuti pola</em></li>
-  </ul>
+          <h4 class="notasi">Sifat-Sifat Pertidaksamaan</h4>
+          <p class="notasi"> Jika \(a &gt; b\), maka </p>
+          <ol>
+            <li>\(a \pm p &gt; b \pm p\)</li>
+            <li>\(ap > bp\) untuk \(p\) positif</li>
+            <li>\(ap &lt; bp\) untuk \(p\) <strong> negatif</strong> (tanda berubah)</li>
+          </ol>
+          <p class="notasi">Jika \(a &gt; b &gt; 0\), maka</p>
+          <ol>
+            <li>\(a^2 &gt; b^2\)</li>
+            <li>$$\frac{1}{a} &lt; \frac{1}{b}$$</li>
+          </ol>
 
-</section>
+          <h4 class="notasi">Penyelesaian Pertidaksamaan</h4>
+          <ol>
+            <li>Tentukan \(\text{HP}_1\) dari syarat fungsi</li>
+            <li>Nol kan ruas kanan</li>
+            <li>Tentukan pembuat nol</li>
+            <li>Tulis ke dalam garis bilangan</li>
+            <li>Lakukan uji titik pada selang batas-batas pembuat nol</li>
+            <li>\(\text{HP}_2\) berada pada:</li>
+            <ul class="notasi">
+              <li>Jika \(f(x)&gt;0\), maka ada pada selang positif</li>
+              <li>Jika \(f(x)&lt;0\), maka ada pada selang negatif</li>
+            </ul>
+            <li>\(\text{HP}=\text{HP}_1 \cap \text{HP}_2\)</li>
+          </ol>
+
+          <h4 class="notasi">Bentuk Akar</h4>
+          <p class="notasi">$$\sqrt{a} &gt; \sqrt{b}$$</p>
+          <ol>
+            <li>Syarat domain, \(a\geq 0\) dan \(b \geq 0\)</li>
+            <li>Kuadratkan kedua ruas</li>
+            <li>\(\text{HP}=\text{HP}_1 \cap \text{HP}_2\)</li>
+          </ol>
+
+          <h4 class="notasi">Harga Mutlak</h4>
+          <p>$$|x|=\begin{cases}x, &amp; \text{untuk } x\geq 0 \\ -x, &amp;\text{untuk }x &lt; 0 \end{cases}$$ </p>
+          <ol>
+            <li>\(|x|&lt; a \leftrightarrow -a &lt; x &lt;a \)</li>
+            <li>\(|x|&gt;a \leftrightarrow x&gt;a \cup x&lt;-a\)</li>
+          </ol>
+          <p class="notasi">Cara lain, yaitu dengan meng-kuadrat-kan kedua ruas:</p>
+          <p>$$\begin{align}|x|&amp; &gt;|y| \\ x^2 &amp; &gt;y^2\\x^2-y^2&amp; &gt;0\\(x+y)(x-y)&amp; &gt;0 \end{align}$$</p>
+
+          <h4 class="notasi">Pertidaksamaan Eksponen</h4>
+          <p class="notasi">$$a^{f(x)}&gt;a^{g(x)}$$</p>
+          <p class="notasi">Jika \(a&gt;1\), maka \(f(x)&gt;g(x)\) </p>
+          <p>Jika \(0 &lt; a &lt; 1\), maka \(f(x) &lt; g(x)\) </p>
+
+          <h4 class="notasi">Pertidaksamaan Logaritma</h4>
+          <p class="notasi">$$\log_{a}{f(x)} &gt; \log_{a}{g(x)}$$</p>
+          <p class="notasi">Jika \(a &gt; 1\), maka \(f(x) &gt; g(x)\)</p>
+          <p class="notasi">Jika \(0 &lt; a &lt; 1\), maka \(f(x) &lt; g(x)\)</p>
+        </section>
+
+        <hr>
+
+        <section id="persamaan_garis">
+          <h3 style="color: #9bf1ff">Persamaan Garis</h3>
+          <h4 class="notasi">Persamaan Garis</h4>
+          <ol>
+            <li>\(y=mx+c\)</li>
+            <li>$$\frac{y-y_1}{y_2-y_1}=\frac{x-x_1}{x_2-x_1}$$</li>
+            <li>\(y-y_1=m(x-x_1)\)</li>
+          </ol>
+
+          <h4 class="notasi">Gradien \((m)\)</h4>
+          <p>Kemiringan suatu garis</p>
+          <span class="image" style="width:70%"><img src="{% link assets/images/gradien.svg %}" alt="gambar gradien negatif, 0, dan positif" /></span>
+          <ol>
+            <li>\(y=mx+c\), gradien= \(m\)</li>
+            <li>\(ax+by+c=0\), <br> maka \(m=\dfrac{-a}{b}\)</li>
+            <li>Jika diketahui 2 titik, maka \(m=\dfrac{y_2-y_1}{x_2-x_1}\)</li>
+            <li>Jika diketahui sudut, maka \(m=tg \alpha\)</li>
+          </ol>
+
+          <h4 class="notasi">Hubungan Antar Garis</h4>
+          <p class="notasi">Jika terdapat 2 persamaan garis: <br> \(y=m_1x+c_1\) <br> \(y=m_2x+c_2\)</p>
+          <ul>
+            <li>Sejajar: \(m_1=m_2\)</li>
+            <li>Tegak lurus: \(m_1m_2=-1\)</li>
+            <li>Berpotongan: \(tg \alpha = \left|\dfrac{m_1-m_2}{1+m_1m_2}\right|\)</li>
+          </ul>
+
+          <h4 class="notasi">Jarak Titik ke Garis</h4>
+          <p class="notasi">Jarak titik \((x_1,y_1)\) ke garis \(ax+by+c=0\) $$d=\left|\frac{ax_1+by_1+C}{\sqrt{a^2+b^2}}\right|$$</p>
+        </section>
+
+        <hr>
+
+        <section id="fungsi_kuadrat">
+          <h3 style="color: #9bf1ff"> Fungsi Kuadrat</h3>
+          <h4 class="notasi">Bentuk Umum</h4>
+          <p>$$y=f(x)=ax^2+bx+c, a\neq 0$$</p>
+
+          <h4 class="notasi">Titik Puncak/Ekstrim/Min/Maks</h4>
+          <p class="notasi">$$(x_p,y_p)=\left(\frac{-b}{2a},\frac{D}{-4a}\right)$$</p>
+          <p class="notasi">
+          \(x_p=\) sumbu simetri <br>
+          \(y_p=\) nilai ekstrim <br>
+          \(x=\) absis </p>
+          <p>\(y=\) ordinat</p>
+
+          <h4 class="notasi">Menentukan Persamaan Fungsi Kuadrat</h4>
+          <p class="notasi">Jika diketahui:</p>
+          <ul>
+            <li>Tiga titik sembarang <br> \(y=ax^2+bx+c\)<br> (eliminasi)</li>
+            <li>Titik puncak<br> \(y-y_p=a(x-x_p)^2\)</li>
+            <li>Titik potong dengan sumbu \(x\)<br>\(y=a(x-x_1)(x-x_2)\)</li>
+          </ul>
+
+          <h4 class="notasi">Hubungan \(a,b,c\) dan \(D\) terhadap kurva</h4>
+          <p class="notasi"><b>Nilai \(a\) </b> </p>
+          <span class="image" style="width:70%"><img src="{% link assets/images/a_kurva.svg %}" alt="kurva a" /></span>
+          <p class="notasi"><b>Nilai \(b\) </b> </p>
+          <span class="image" style="width:70%"><img src="{% link assets/images/b_kurva.svg %}" alt="kurva a" /></span>
+          <p class="notasi"><b>Nilai \(c\)* </b> </p>
+          <ul class="notasi">
+            <li>\(c &gt; 0\) memotong sumbub \(y\) positif</li>
+            <li>\(c &lt; 0\) memotong sumbub \(y\) negatif</li>
+            <li>\(c = 0\) memotong sumbub \(y\) di 0 </li>
+          </ul>
+          <p>* ketika parabola memotong sumbu \(y\), maka \(x=0\), sehingga \(y=c\) </p>
+
+          <p class="notasi"><b>Nilai \(D\) </b> </p>
+          <ul class="notasi">
+            <li>\(D&gt;0\) memotong sumbu \(x\)</li>
+            <li>\(D=0\) menyinggung sumbu \(x\)</li>
+            <li>\(D&lt;0\) tidak memotong sumbu \(x\)</li>
+          </ul>
+          <p>Note: Untuk mengetahui hubungan antara garis dengan parabola, subtitusi persamaan garis ke dalam parabola, tentukan nilai \(D\)</p>
+
+          <p class="notasi"><b>Definit </b> </p>
+          <p class="notasi">Definit positif: \(a &gt; 0\) dan \(D &lt; 0\)</p>
+          <p>Definit negatif: \(a &lt; 0\) dan \(D &lt; 0\)</p>
+
+        </section>
+
+        <hr>
+
+        <section id="persamaan_kuadrat">
+          <h3 style="color: #9bf1ff">Persamaan Kuadrat</h3>
+          <h4>Bentuk Umum</h4>
+          <p>$$ax^2+bx+c=0,\ a \neq 0$$</p>
+
+          <h4 class="notasi">Akar-Akar Persamaan Kuadrat</h4>
+          <p>$$x_{1,2}=\frac{-b\pm \sqrt{b^2-4ac}}{2a}$$</p>
+          <ul>
+            <li>\(D=b^2-4ac\)</li>
+            <li>\(D&gt;0:\) Akar riil berbeda</li>
+            <li>\(D=0:\) Akar riil kembar</li>
+            <li>\(D&lt;0:\) Akar imajiner</li>
+          </ul>
+
+          <h4 class="notasi">Operasi Akar-Akar</h4>
+          <ul>
+            <li>$$x_1+x_2=\frac{-b}{a}$$</li>
+            <li>$$x_1x_2=\frac{c}{a}$$</li>
+            <li>$$x_1-x_2=\pm \frac{\sqrt{D}}{a}$$</li>
+            <li>$$x_1^2+x_2^2=(x_1+x_2)^2-2 x_1 x_2$$</li>
+            <li>$$x_1^3+x_2^3=(x_1+x_2)^3-3x_1x_2(x_1+x_2)$$</li>
+            <li>$$\frac{1}{x_1}+\frac{1}{x_2}=\frac{x_1+x_2}{x_1x_2}$$</li>
+            <li>$$x_1^2-x_2^2=(x_1+x_2)(x_1-x_2)$$</li>
+          </ul>
+
+          <h4 class="notasi">Sifat Akar-Akar</h4>
+          <ul>
+            <li>Dua akar positif<br>$$x_1+x_2&gt;0 ;\ x_1x_2&gt;0;\ D\geq 0$$</li>
+            <li>Dua akar negatif<br>$$x_1+x_2&lt;0 ;\ x_1x_2&gt;0;\ D\geq 0$$</li>
+            <li>Saling berlawanan<br>$$x_1x_2&lt;0 ;\ D&gt; 0$$</li>
+            <li>Saling berkebalikan<br>$$x_1x_2=1;D&gt; 0$$</li>
+          </ul>
+
+          <h4 class="notasi">Persamaan Kuadrat Baru</h4>
+          <p class="notasi">Menyelesaikan pers. kuadrat baru</p>
+          <ol>
+            <li>Misalkan akar-akar barunya \(p\) dan \(q\)</li>
+            <li>Tentukan \(p+q\)</li>
+            <li>Tentukan \(pq\)</li>
+            <li>Subtitusi ke dalam pers. kuadrat baru $$x^2-(p+q)x+pq=0$$</li>
+          </ol>
+        </section>
+
+        <hr>
+
+      </div>
+
+      <div class="6u 12u$(small)">
+
+        <section id="lingkaran">
+          <h3 style="color: #9bf1ff">Lingkaran</h3>
+          <h4 class="notasi">Persamaan Lingkaran</h4>
+          <ul>
+            <li>Berpusat di \((0,0)\): \(x^2+y^2=R^2\)</li>
+            <li>Berpusat di \((a,b)\): \((x-a)^2+(y-b)^2=R^2\)</li>
+            <li>Umum: \(x^2+y^2+Ax+By+C=0\) <br> Pusat\(=\left(\dfrac{-A}{2},\dfrac{-B}{2}\right),R=\sqrt{\dfrac{A^2}{4}+\dfrac{B^2}{4}-C}\)</li>
+          </ul>
+
+          <h4 class="notasi">Hubungan Garis dan Lingkaran</h4>
+          <p class="notasi">Subtitusi persamaan garis ke lingkaran</p>
+          <ul>
+            <li>Berpotongan di 2 titik: \(D&gt;0\)</li>
+            <li>Bersinggungan: \(D=0\)</li>
+            <li>Tidak berpotongan: \(D &lt; 0\)</li>
+          </ul>
+
+          <h4 class="notasi">Persamaan Garis Singgung</h4>
+          <ol>
+            <li>PGSL untuk \(x^2+y^2=R^2\)</li>
+            <ul>
+              <li>\(x_1x+y_1y=R^2\)</li>
+              <li>\(y=mx\pm R\sqrt{m^2+1} \)</li>
+            </ul>
+            <li>PGSL untuk \((x-a)^2+(y-b)^2=R^2\)</li>
+            <ul>
+              <li>\((x_1-a)(x-a)+(y_1-b)(y-b)=R^2\)</li>
+              <li>\(y-b=m(x-a)\pm R\sqrt{m^2+1}\)</li>
+            </ul>
+            <li>PGSL untuk \(x^2+y^2+Ax+By+C=0\) <br> \(x_1x+y_1y+\frac{1}{2}A(x+x_1)+\frac{1}{2}B(y+y_1)+C=0\)</li>
+          </ol>
+
+          <h4 class="notasi">Panjang Garis Singgung 2 Lingkaran</h4>
+          <ul>
+            <li>Garis singgung luar</li>
+              <p>$$GL=\sqrt{l^2-(R-r)^2}$$</p>
+            <li>Garis singgung dalam</li>
+              <p>$$GD=\sqrt{l^2-(R+r)^2}$$</p>
+          </ul>
+        </section>
+
+        <hr>
+
+        <section id="logika_matematika">
+          <h3 style="color: #9bf1ff">Logika Matematika</h3>
+          <h4 class="notasi">Tabel Kebenaran</h4>
+          <div class="table-wrapper">
+            <table class="alt">
+              <thead>
+                <tr>
+                  <th style="border:2px outset white">\(p\)</th>
+                  <th style="border:2px outset white">\(q\)</th>
+                  <th>\(p\vee q\)</th>
+                  <th>\(p\wedge q\)</th>
+                  <th>\(p\Rightarrow q\)</th>
+                  <th>\(p\Leftrightarrow q\)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="border:2px outset white">B</td>
+                  <td style="border:2px outset white">B</td>
+                  <td>B</td>
+                  <td>B</td>
+                  <td>B</td>
+                  <td>B</td>
+                </tr>
+                <tr>
+                  <td style="border:2px outset white">B</td>
+                  <td style="border:2px outset white">S</td>
+                  <td>B</td>
+                  <td>S</td>
+                  <td>S</td>
+                  <td>S</td>
+                </tr>
+                <tr>
+                  <td style="border:2px outset white">S</td>
+                  <td style="border:2px outset white">B</td>
+                  <td>B</td>
+                  <td>S</td>
+                  <td>B</td>
+                  <td>S</td>
+                </tr>
+                <tr>
+                  <td style="border:2px outset white">S</td>
+                  <td style="border:2px outset white">S</td>
+                  <td>S</td>
+                  <td>S</td>
+                  <td>B</td>
+                  <td>B</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h4 class="notasi">Negasi</h4>
+          <ol>
+            <li>\(\neg B= S\)</li>
+            <li>\(\neg S= B\)</li>
+            <li>\(\neg \forall = \exists \)</li>
+            <li>\(\neg \exists = \forall \)</li>
+            <li>\(\neg (p \Rightarrow q)=p\wedge\neg q\)</li>
+          </ol>
+
+          <h4 class="notasi">Ekuivalensi</h4>
+          <ul>
+            <li>\((p\Rightarrow q) \equiv (\neg q \Rightarrow \neg q) \equiv (\neg p \vee q)\)</li>
+            <li>\(\neg (p\vee q) \equiv \neg p \wedge \neg q\)</li>
+            <li>\(\neg (p\wedge q) \equiv \neg p \vee \neg q\)</li>
+            <li>\(\neg (p\Rightarrow q)\equiv p\wedge \neg q\)</li>
+          </ul>
+
+          <h4 class="notasi">Konvers, Invers, dan Kontraposisi</h4>
+          <p class="notasi">Diketahui \(p\Rightarrow q\) (implikasi), maka:</p>
+          <ul>
+            <li>Konver: \(q\Rightarrow p\)</li>
+            <li>Invers: \neg p \Rightarrow \neg q</li>
+            <li>Kontraposisi: \neg q \Rightarrow \neg p</li>
+          </ul>
+          <h4 class="notasi">Penarikan Kesimpulan</h4>
+          <ul>
+            <li>Modus Ponen</li>
+            <!-- Belum, mikir pembagianne-->
+            <li>Modus Tollen</li>
+            <!-- Belum, mikir pembagianne-->
+            <li>Sillogisme</li>
+            <!-- Belum, mikir pembagianne-->
+          </ul>
+        </section>
+
+        <hr>
+
+        <section id="suku_banyak">
+          <h3 style="color: #9bf1ff">Suku Banyak</h3>
+
+          <h4 class="notasi">Bentuk Umum</h4>
+          <p  class="notasi">$$f(x)=a_nx^n+a_{n-1}x^{x-1}+\ldots+a_1x+a_0$$</p>
+          <p>Keterangan: \(n=\) derajat suku banyak</p>
+
+          <h4 class="notasi">Pembagian Suku Banyak</h4>
+          <p  class="notasi">$$f(x)=h(x)\cdot p(x)+s(x)$$</p>
+          <p  class="notasi">\(f(x)=\) suku banyak</p>
+          <p  class="notasi">\(h(x)=\) hasil bagi</p>
+          <p  class="notasi">\(p(x)=\) pembagi</p>
+          <p>\(s(x)=\) sisa</p>
+
+          <h4 class="notasi">Teorema Sisa</h4>
+          <ul>
+            <li>Jika suatu suku banyak \(f(x)\) dibagi oleh \((x-k)\), maka sisanya adalah \(f(x)\)</li>
+            <li>Jika pembagi berderajat \(n\) maka sisanya berderajat \(n-1\)</li>
+            <li>Jika suku banyak berderajat \(m\) dan pembagi berderajat \(n\), maka hasil baginya berderajat \((m-n)\)</li>
+          </ul>
+
+          <h4 class="notasi">Teorema Vieta</h4>
+          <ul>
+            <li>Jumlah 1 akar \((x_1+x_2+\ldots+x_n)=\dfrac{-b}{a}\) </li>
+            <li>Jumlah 2 akar \((x_1x_2+x_1x_3+\ldots)=\dfrac{c}{a}\)</li>
+            <li>Jumlah 3 akar \((x_1x_2x_3+x_1x_2x_4+\ldots)=\dfrac{-d}{a}\)</li>
+            <li><em>Selanjutnya, ikuti pola</em></li>
+          </ul>
+
+        </section>
 
 <hr class="major">
 
@@ -619,6 +649,7 @@ nav-menu: true
   <h4 class="notasi">Refleksi</h4>
   <h4 class="notasi">Dilatasi</h4>
 </section>
+</div>
 
 <hr class="major">
 </div>
@@ -643,14 +674,17 @@ nav-menu: true
 <h3>Text</h3>
 <p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
 This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>.
-Finally, this is a <a href="#">link</a>.</p>
-<hr />
-<h2>Heading Level 2</h2>
-<h3>Heading Level 3</h3>
-<h4>Heading Level 4</h4>
-<hr />
-<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+  This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>.
+  Finally, this is a <a href="#">link</a>.</p>
+    <hr />
+
+    <h2>Heading Level 2</h2>
+    <h3>Heading Level 3</h3>
+    <h4>Heading Level 4</h4>
+
+    <hr/>
+
+    <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
 
 <!-- Lists -->
 <h3>Lists</h3>
@@ -984,14 +1018,9 @@ Finally, this is a <a href="#">link</a>.</p>
 <h3>Preformatted</h3>
 <pre><code>i = 0;
 
-while (!deck.isInOrder()) {
-print 'Iteration ' + i;
-deck.shuffle();
-i++;
-}
+while (!deck.isInOrder()) { print 'Iteration ' + i; deck.shuffle(); i++; }
 
-print 'It took ' + i + ' iterations to sort the deck.';
-</code></pre>
+print 'It took ' + i + ' iterations to sort the deck.'; </code></pre>
 
 </div>
 </div>
