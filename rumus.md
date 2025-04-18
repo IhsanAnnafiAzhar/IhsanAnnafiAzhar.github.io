@@ -13,6 +13,7 @@ nav-menu: true
   <div class="inner">
     <header class="major">
       <h1>Kumpulan Rumus Matematika <em>Remastered</em> </h1>
+      File asli oleh: <a href="https://www.instagram.com/ademaupsilon/">@ademaupsilon</a>, <a href="https://www.instagram.com/math.qna/">@math.qna</a>
     </header>
 
 <!-- Content -->
@@ -273,10 +274,6 @@ nav-menu: true
 
         <hr>
 
-      </div>
-
-      <div class="6u 12u$(small)">
-
         <section id="lingkaran">
           <h3 style="color: #9bf1ff">Lingkaran</h3>
           <h4 class="notasi">Persamaan Lingkaran</h4>
@@ -393,17 +390,38 @@ nav-menu: true
           <p class="notasi">Diketahui \(p\Rightarrow q\) (implikasi), maka:</p>
           <ul>
             <li>Konver: \(q\Rightarrow p\)</li>
-            <li>Invers: \neg p \Rightarrow \neg q</li>
-            <li>Kontraposisi: \neg q \Rightarrow \neg p</li>
+            <li>Invers: \(\neg p \Rightarrow \neg q\)</li>
+            <li>Kontraposisi: \(\neg q \Rightarrow \neg p\)</li>
           </ul>
           <h4 class="notasi">Penarikan Kesimpulan</h4>
           <ul>
             <li>Modus Ponen</li>
-            <!-- Belum, mikir pembagianne-->
+            <p>$$
+            \begin{align}
+            &p \Rightarrow q\\
+            &\underline{p \ \ \ \ \ \ \ \ }  \\
+            &\therefore q
+            \end{align}
+            $$
+            </p>
             <li>Modus Tollen</li>
-            <!-- Belum, mikir pembagianne-->
+            <p>$$
+            \begin{align}
+            &p \Rightarrow q\\
+            &\underline{ \ \ \ \ \ \ \  \neg q}  \\
+            &\therefore \neg p
+            \end{align}
+            $$
+            </p>
             <li>Sillogisme</li>
-            <!-- Belum, mikir pembagianne-->
+            <p>$$
+            \begin{align}
+            &p \Rightarrow q\\
+            &\underline{q \Rightarrow r}  \\
+            &\therefore p \Rightarrow r
+            \end{align}
+            $$
+            </p>
           </ul>
         </section>
 
@@ -440,216 +458,489 @@ nav-menu: true
 
         </section>
 
-<hr class="major">
+        <hr>
 
-<section id="fungsi">
-  <h3 style="color: #9bf1ff">Fungsi</h3>
-  <h4 class="notasi">Domain</h4>
-  <p>Daerah asal dari suatu fungsi</p>
-  <ul>
-    <li>\(f(x)=\sqrt{a}\) domainnya adalah \(a>=0\)</li>
-    <li>\(f(x)=\dfrac{a}{b}\) domainnya adalah \(b\neq0\)</li>
-    <li>\(f(x)=\log_{a}{b}\) domainnya adalah \(a>0,a\neq1,b>0\)</li>
-  </ul>
-  
-  <h4 class="notasi">Fungsi Invers</h4>
-  <p>Invers dari \(f(x)\) dinotasikan sebagai \(f^{-1}(x)\)</p>
-  <p>$$f(x)=y \Rightarrow f^{-1}(y)=x$$</p>
-  <ul>
-    <li>\(f(x)=ax+b\Rightarrow f^{-1}(x)=\dfrac{x-b}{a}\)</li>
-    <li>\(f(x)=\dfrac{ax+b}{cx+d}\Rightarrow f^{-1}(x)=\dfrac{-dx+b}{cx-a}\)</li>
-    <li>\(f(x)=a^{bx+c}\Rightarrow f^{-1}(x)=\dfrac{log_{a}{(x)}-c}{b}\)</li>
-    <li>\(f(x)=\log_{a}{(bx+c)}\Rightarrow f^{-1}(x)=\frac{a^x-c}{b}\)</li>
-  </ul>
-  
-  <h4 class="notasi">Fungsi Komposisi</h4>
-  <ul>
-    <li>\((f\circ g)(x)= f(g(x))\)</li>
-    <li>\((f^{-1})^{-1}(x)=f(x)\)</li>
-    <li>\((f\circ g)^{-1}(x)=g^{-1}\circ f^{-1}(x)\)</li>
-    <li>\(f^{-1}\circ f(x)=f \circ f^{-1}(x)=x\)</li>
-  </ul>
+        <section id="fungsi">
+          <h3 style="color: #9bf1ff">Fungsi</h3>
+          <h4 class="notasi">Domain</h4>
+          <p>Daerah asal dari suatu fungsi</p>
+          <ul>
+            <li>\(f(x)=\sqrt{a}\) domainnya adalah \(a>=0\)</li>
+            <li>\(f(x)=\dfrac{a}{b}\) domainnya adalah \(b\neq0\)</li>
+            <li>\(f(x)=\log_{a}{b}\) domainnya adalah \(a>0,a\neq1,b>0\)</li>
+          </ul>
 
-</section>
+          <h4 class="notasi">Fungsi Invers</h4>
+          <p>Invers dari \(f(x)\) dinotasikan sebagai \(f^{-1}(x)\)</p>
+          <p>$$f(x)=y \Rightarrow f^{-1}(y)=x$$</p>
+          <ul>
+            <li>\(f(x)=ax+b\Rightarrow f^{-1}(x)=\dfrac{x-b}{a}\)</li>
+            <li>\(f(x)=\dfrac{ax+b}{cx+d}\Rightarrow f^{-1}(x)=\dfrac{-dx+b}{cx-a}\)</li>
+            <li>\(f(x)=a^{bx+c}\Rightarrow f^{-1}(x)=\dfrac{log_{a}{(x)}-c}{b}\)</li>
+            <li>\(f(x)=\log_{a}{(bx+c)}\Rightarrow f^{-1}(x)=\frac{a^x-c}{b}\)</li>
+          </ul>
 
-<hr class="major">
+          <h4 class="notasi">Fungsi Komposisi</h4>
+          <ul>
+            <li>\((f\circ g)(x)= f(g(x))\)</li>
+            <li>\((f^{-1})^{-1}(x)=f(x)\)</li>
+            <li>\((f\circ g)^{-1}(x)=g^{-1}\circ f^{-1}(x)\)</li>
+            <li>\(f^{-1}\circ f(x)=f \circ f^{-1}(x)=x\)</li>
+          </ul>
+        </section>
 
-<section id="limit">
-  <h3 style="color: #9bf1ff">Limit</h3>
-  <h4 class="notasi">Sifat Limit</h4>
-  <p>Jika fungsi memiliki limit, maka</p>
-  <ul>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-  </ul>
-  
-  <h4 class="notasi">Limit Bentuk</h4>
-  
-  <h4 class="notasi">Limit Bentuk</h4>
-  <h4 class="notasi">Limit Bentuk</h4>
-  <h4 class="notasi">Limit Trigonometri</h4>
-</section>
+        <hr>
 
-<hr class="major">
+        <section id="limit">
+          <h3 style="color: #9bf1ff">Limit</h3>
+          <h4 class="notasi">Sifat Limit</h4>
+          <p class="notasi">Jika fungsi memiliki limit, maka</p>
+          <ul>
+            <li>$$ \lim_{x\to a}k=k$$</li>
+            <li>$$ \lim_{x\to a}x=a$$</li>
+            <li>$$ \lim_{x\to a}k\cdot f(x)=k\cdot \lim_{x\to a} f(x) $$</li>
+            <li>$$ \lim_{x\to a}\left[f(x)\pm g(x)\right]= \lim_{x\to a} f(x) \pm \lim_{x\to a} g(x) $$</li>
+            <li>$$ \lim_{x\to a}\left[f(x)\cdot g(x)\right]= \lim_{x\to a} \cdot \lim_{x\to a} g(x)$$</li>
+            <li>$$ \lim_{x\to a}\frac{f(x)}{g(x)}=\frac{\lim_{x\to a}f(x)}{\lim_{x\to a}g(x)} \ \ , \lim_{x\to a}g(x)\neq 0 $$</li>
+            <li>$$ \lim_{x\to a}\left(f(x)\right)^n = \left(\lim_{x\to a}f(x)^n\right)$$</li>
+            <li>$$ \lim_{x\to a}\sqrt[n]{f(x)}=\sqrt[n]{\lim_{x\to a}f(x)}$$</li>
+          </ul>
 
-<section id="statistika">
-  <h3 style="color: #9bf1ff">Statistika</h3>
-  <h4 class="notasi">Rata-Rata/Mean</h4>
-  <h4 class="notasi">Modus</h4>
-  <h4 class="notasi">Median</h4>
-  <h4 class="notasi">Kuartil</h4>
-  <h4 class="notasi">Ukuran Penyebaran</h4>
-</section>
+          <h4 class="notasi">Limit Dengan Bentuk $$\lim_{x\to a}\frac{f(x)}{g(x)}=\frac{0}{0}$$</h4>
+          <p>Misal untuk: \(\lim\limits_{x\to 1}\frac{x^2+8x-9}{x^2-1}= \ldots\)</p>
+          <ul>
+            <li>Metode Pemfaktoran</li>
+            <p>Memfaktorkan pembilang dan penyebut, maka</p>
+            <p>$$
+            \begin{align}
+            &=\lim_{x\to 1} \frac{(x+9)(x-1)}{(x+1)(x-1)}\\
+            &=\lim_{x\to 1} \frac{(x+9)}{(x+1)}\\
+            &=5
+            \end{align}
+            $$
+            </p>
+            <li>Metode L'hopital</li>
+            <p>Mendifferensiasikan pembilang dan penyebut</p>
+            <p>$$
+            \begin{align}
+            &=\lim_{x\to 1} \frac{2x+8}{2x}\\
+            &=5
+            \end{align}
+            $$
+            </p>
+          </ul>
 
-<hr class="major">
+          <h4 class="notasi">Limit Bentuk \(\lim\limits_{x\to \infty}\frac{f(x)}{g(x)}=\frac{\infty}{\infty}\)</h4>
+          <p>$$\lim_{x\to \infty}\frac{a_1x^m+a_2x^{m-1}+\ldots+a_m}{b_1x^n+b_2x^{n-1}+\dots+b_n}=$$</p>
+          <p>Penyelesaian, jika:</p>
+          <ul>
+            <li>\(m&gt;n\), maka $$\lim_{x\to \infty} \frac{f(x)}{g(x)}=\infty$$</li>
+            <li>\(m=n\), maka $$\lim_{x\to \infty} \frac{f(x)}{g(x)}=\frac{a_1}{b_1}$$</li>
+            <li>\(m&lt;n\), maka $$\lim_{x\to \infty} \frac{f(x)}{g(x)}=0$$</li>
+          </ul>
 
-<section id="peluang">
-  <h3 style="color: #9bf1ff">Peluang</h3>
-  <h4 class="notasi">Kombinatorik</h4>
-  <h4 class="notasi">Permutasi</h4>
-  <h4 class="notasi">Kombinasi</h4>
-  <h4 class="notasi">Frekuensi Harapan</h4>
-</section>
+          <h4 class="notasi">Limit Bentuk \(\lim\limits_{x\to \infty}\left(f(x)-g(x)\right)=\infty-\infty\)</h4>
+          <p>$$\lim_{x\to\infty} \left(\sqrt{ax^2+bx+c}-\sqrt{px^2+qx+r}\right)=\ldots$$</p>
+          <p>Penyelesaian, jika:</p>
+          <ul>
+            <li>\(a&gt;p\), maka $$\lim_{x\to\infty} \left(f(x)-g(x)\right)=\infty$$</li>
+            <li>\(a=p\), maka $$\lim_{x\to\infty} \left(f(x)-g(x)\right)=\frac{b-q}{2\sqrt{a}}$$</li>
+            <li>\(a&lt;p\), maka $$\lim_{x\to\infty} \left(f(x)-g(x)\right)=-\infty$$</li>
+          </ul>
 
-<hr class="major">
+          <h4 class="notasi">Limit Trigonometri</h4>
+          <ul>
+            <li>$$\lim_{x\to 0} \frac{\sin(ax)}{bx}=\lim_{x\to 0} \frac{ax}{\sin(bx)}=\frac{a}{b}$$</li>
+            <li>$$\lim_{x\to 0} \frac{\tan(ax)}{bx}=\lim_{x\to 0} \frac{ax}{\tan(bx)}=\frac{a}{b}$$</li>
+            <li>$$\lim_{x\to 0} \frac{\sin(ax)}{\tan(bx)}=\lim_{x\to 0} \frac{\tan(ax)}{\sin(bx)}=\frac{a}{b}$$</li>
+          </ul>
+          <p>Persamaan yang sering digunakan</p>
+          <ul>
+            <li>$$1-\cos(A)=2\sin^2\left(\frac{A}{2}\right)$$</li>
+            <li>$$1-\cos^2(A)=\sin^2(A)$$</li>
+            <li>$$\cos(A)=\frac{\sin(A)}{\tan(A)}$$</li>
+          </ul>
+        </section>
 
-<section id="barisan_deret">
-  <h3 style="color: #9bf1ff">Barisan dan Deret</h3>
-  <h4 class="notasi">Deret Aritmatika</h4>
-  <h4 class="notasi">Deret Geometri</h4>
-  <h4 class="notasi">Deret Geometri Tak Hingga</h4>
-</section>
+        <hr>
 
-<hr class="major">
+      </div>
 
-<section id="matematika_keuangan">
-  <h3 style="color: #9bf1ff">Matematika Keuangan</h3>
-  <h4 class="notasi">Bunga</h4>
-  <h4 class="notasi">Anuitas</h4>
-</section>
+      <div class="6u 12u$(small)">
 
-<hr class="major">
+        <section id="statistika">
+          <h3 style="color: #9bf1ff">Statistika</h3>
+          <h4 class="notasi">Rata-Rata/Mean</h4>
+          <p>$$\bar{x}=\frac{\sum x_i}{n}=\frac{\sum f_i x_i}{\sum f_i}$$</p>
+          <p>$$\bar{x}=x_s+\frac{\sum f_i d_i}{\sum f_i}=x_0+\left(\frac{\sum f_i ci}{\sum f_i}\right)p$$</p>
+          <p>Note:</p>
+          <p>\(\bar{x}=\) Rata-rata</p>
+          <p>\(x_s=\) Rata-rata sementara</p>
+          <p>\(x_0=\) Tanda kelas</p>
+          <p>\(f=\) Frekuensi</p>
+          <p>\(d=\) Deviasi \(d_i=x_i-x_s\)</p>
+          <p>\(p=\) Panjang kelas</p>
+          <p>\(c=\) Sandi tanda kelas, \(c=0\) untuk \(x_0\)</p>
 
-<section id="logaritma">
-  <h3 style="color: #9bf1ff">Logaritma</h3>
-  <h4>Sifat-Sifat Logaritma</h4>
-</section>
+          <h4 class="notasi">Modus</h4>
+          <p>$$M_0=t_{mo}+\left(\frac{L_1}{L_1+L_2}\right)p$$</p>
+          <p>Note:</p>
+          <p>\(M_o=\) Modus</p>
+          <p>\(t_{mo}=\) Tepi bawah kelas modus</p>
+          <p>\(L_1=f\) kelas modus - \(f\) kelas sebelumnya</p>
+          <p>\(L_2=f\) kelas modus - \(f\) kelas sesudahnya</p>
 
-<hr class="major">
+          <h4 class="notasi">Median</h4>
+          <p>$$M_e=t_{me}+\left(\frac{\frac{n}{2}-f_k}{f_me}\right)p$$</p>
+          <p>Note:</p>
+          <p>\(M_e=\) Median</p>
+          <p>\(t_{me}=\) Tepi bawah kelas median</p>
+          <p>\(f_k=\) Frekuensi kumulatif sebelum kelas median</p>
+          <p>\(f_{me}=\) Frekuensi kelas median</p>
 
-<section id="trigonometri">
-  <h3 style="color: #9bf1ff">Trigonometri</h3>
-  <h4 class="notasi">Sudut Istimewa</h4>
-  <h4 class="notasi">Aturan Segitiga Siku-Siku</h4>
-  <h4 class="notasi">Jumlah dan Selisih Dua Sudut</h4>
-  <h4 class="notasi">Sudut Kembar</h4>
-  <h4 class="notasi">Jumlah dan Selisih Fungsi</h4>
-  <h4 class="notasi">Perkalian</h4>
-  <h4 class="notasi">Sudut Paruh</h4>
-  <h4 class="notasi">Persamaan Trigonometri</h4>
-</section>
+          <h4 class="notasi">Kuartil</h4>
+          <p>$$Q_i=t_q+\left(\frac{\frac{i}{4}n -f_k}{f_q}\right)p$$</p>
+          <p>Note:</p>
+          <p>\(Q_i =\) Kuartil ke-i</p>
+          <p>\(t_q =\) Tepi bawah kelas kuartil</p>
+          <p>\(f_q =\) Frekuensi kelas kuartil<br></p>
+          <p>Untuk desil: \(\frac{i}{10}n\)</p>
+          <p>Untuk persentil: \(\frac{i}{100}n\)</p>
 
-<hr class="major">
+          <h4 class="notasi">Ukuran Penyebaran</h4>
+          <ul>
+            <li>Jangkauan</li>
+            <p>$$J=x_{besar}-x_{kecil}$$</p>
+            <li>Ragam</li>
+            <p>$$R=\frac{\sum\left(x_i-\bar{x}\right)^2}{n}$$</p>
+            <li>Simpangan baku</li>
+            <p>$$S=\sqrt{\frac{\sum\left(x_i-\bar{x}\right)^2}{n}}$$</p>
+            <li>Simpangan rata-rata</li>
+            <p>$$S_R=\frac{\sum |x_i-\bar{x}|}{n}$$</p>
+            <li>Simpangan kuartil</li>
+            <p>$$Q_d=\frac{1}{2}(Q_3-Q_1)$$</p>
+          </ul>
+        </section>
 
-<section id="vektor">
-  <h3 style="color: #9bf1ff">Vektor</h3>
-  <h4 class="notasi">Vektor Posisi</h4>
-  <h4 class="notasi">Vektor Satuan</h4>
-  <h4 class="notasi">Panjang Vektor</h4>
-  <h4 class="notasi">Operasi Vektor</h4>
-  <h4 class="notasi">Proyeksi Ortogonal</h4>
-</section>
+        <hr>
 
-<hr class="major">
+        <section id="peluang">
+          <h3 style="color: #9bf1ff">Peluang</h3>
+          <h4 class="notasi">Kombinatorik</h4>
+          <p>Jika suatu masalah diselesaikan dengan \(m\) cara dan masalah lain dengan \(n\) cara, maka gabungannya dapat diselesaikan dengan \(m\times n\) cara.</p>
+          <p>Contoh: Ada 2 baju dan 3 celana, banyaknya cara berpakaian yang mungkin adalah \(2\times 3 = 6\) cara</p>
 
-<section id="turunan">
-  <h3 style="color: #9bf1ff">Turunan</h3>
-  <h4 class="notasi">Rumus-Rumus Dasar</h4>
-  <h4 class="notasi">Rumus-Rumus Turunan</h4>
-  <h4 class="notasi">Chain Rule</h4>
-  <h4 class="notasi">Aplikasi Turunan</h4>
-</section>
+          <h4 class="notasi">Permutasi</h4>
+          <p>Susunan elemen dalam urutan tanpa ada pengulangan elemen</p>
+          <p>\(n!=1\times 2\times \ldots \times (n-1) \times n\) dan \(0!=1\)</p>
+          <ul>
+            <li>Permutasi \(n\) elemen dari \(n\) elemen</li>
+            <p>$$P^n_n=n!$$</p>
+            <li>Permutasi \(r\) elemen dari \(n\) elemen</li>
+            <p>$$P^n_r=\frac{n!}{(n-r)!}$$</p>
+            <li>Permutasi dari elemen yang sama</li>
+            <p>$$P^n_{(k,l,m)}=\frac{n!}{k!l!m!}$$</p>
+            <li>Permutasi siklis</li>
+            <p>$$P^n_S=(n-1)!$$</p>
+          </ul>
 
-<hr class="major">
+          <h4 class="notasi">Kombinasi</h4>
+          <p>Susunan dari semua/sebagian elemen dari suatu himpunan yang tidak mementingkan urutan</p>
+          <p>$$C^n_r=\frac{n!}{(n-r)!r!}$$</p>
+          <p>Penyebaran Binomial, pola bilangan Segitiga Pascal</p>
+          <p>$$\left(a+b\right)^n=\sum_{k=0}C^n_ka^{n-k}b^k$$</p>
 
-<section id="integral">
-  <h3 style="color: #9bf1ff">Integral</h3>
-  
-  <h4 class="notasi">Integral Fungsi Aljabar</h4>
-  
-  <h4 class="notasi">Sifat Linear Integral</h4>
-  
-  <h4 class="notasi">Integral Tentu</h4>
-  
-  <h4 class="notasi">Sifat-Sifat Integral Tentu</h4>
-  
-  <h4 class="notasi">Rumus-Rumus Integral</h4>
-  
-  <h4 class="notasi">Integral Parsial</h4>
-  
-  <h4 class="notasi">Integral Subtitusi</h4>
-  <p>$$\int f \Left( g(x) \Right) g'(x) \,dx$$</p>
-  <p>Misalkan \(\)</p>
-  
-  <h4 class="notasi">Menentukan Luas Daerah</h4>
-  <ul>
-    <li>$$L=\int_{a}^b \Left( y_{atas} - y_{bawah} \Right) \,dx$$</li>
-    <li>$$L=\int_{a}^b \Left( y_{kanan} - y_{kiri} \Right) \,dy$$</li>
-  </ul>
+          <h4 class="notasi">Frekuensi Harapan</h4>
+          <p>$$F(A)=n\cdot P(A)$$</p>
+        </section>
 
-  <h4 class="notasi">Menentukan Volume</h4>
-  <ul>
-    <li>$$V_x=\pi \int_{a}^b \Left( y_{atas}^2 - y_{bawah}^2\Right) \,dx$$</li>
-    <li>$$V_y=\pi \int_{a}^b \Left( y_{kanan}^2 - y_{kiri}^2\Right) \,dy$$</li>
-  </ul>
+        <hr>
 
-</section>
+        <section id="barisan_deret">
+          <h3 style="color: #9bf1ff">Barisan dan Deret</h3>
+          <h4 class="notasi">Deret Aritmatika</h4>
+          <p>$$b=U_n-U_{n-1}$$</p>
+          <p>$$b=\frac{U_n-U_p}{n-p}$$</p>
+          <ul>
+            <li>$$U_n=a+b(n-1)$$</li>
+            <li>$$U_n=U_p+b(n-p)$$</li>
+            <li>$$U_n=S_n-S_{n-1}$$</li>
+            <li>$$S_n=\frac{n}{2}\left(a+U_n\right)=\frac{n}{2}\left(2a+b(n-1)\right)$$</li>
+            <li>$$U_t=\frac{a+U_n}{2}$$</li>
+          </ul>
+          <h4 class="notasi">Deret Geometri</h4>
+          <h4 class="notasi">Deret Geometri Tak Hingga</h4>
+        </section>
 
-<hr class="major">
+        <hr>
 
-<section id="matriks">
-  <h3 style="color: #9bf1ff">Matriks</h3>
-  <h4 class="notasi">Ordo Matriks</h4>
-  <h4 class="notasi">Operasi Matriks</h4>
-  <h4 class="notasi">Determinan Matriks</h4>
-  <h4 class="notasi">Sifat Determinan Matriks</h4>
-  <ol>
-    <li>\(\text{det}(A^T)=\text{det}(A)\)</li>
-    <li>\(\text{det}(A^{-1})=\frac{1}{\text{det}(A)}\)</li>
-    <li>\(\text{det}(kA)=k^n\cdot \text{det}(A)\)</li>
-    <li>\(\text{det}(A\cdot B)=\text{det}(A)\cdot \text{det}(B)\)</li>
-    <li>\(\text{det}(A^k)=(\text{det}(A))^k\)</li>
-  </ol>
-  <h4 class="notasi">Matriks Transpos</h4>
-  <h4 class="notasi">Invers Matriks</h4>
-  <h4 class="notasi">Persamaan Matriks</h4>
-  <P>
-    $$
-    \begin{align}
-    A\cdot B &= C
-           A &= C\cdot B^{-1}
-           B &= A^{-1}\cdot C
-    \end{align}
-    $$
-  </P>
-</section>
+        <section id="matematika_keuangan">
+          <h3 style="color: #9bf1ff">Matematika Keuangan</h3>
+          <h4 class="notasi">Bunga</h4>
+          <h4 class="notasi">Anuitas</h4>
+        </section>
 
-<hr class="major">
+        <hr>
 
-<section id="transformasi_geometri">
-  <h3 style="color: #9bf1ff">Transformasi Geometri</h3>
-  <h4 class="notasi">Translasi</h4>
-  <h4 class="notasi">Rotasi</h4>
-  <h4 class="notasi">Refleksi</h4>
-  <h4 class="notasi">Dilatasi</h4>
-</section>
-</div>
+        <section id="logaritma">
+          <h3 style="color: #9bf1ff">Logaritma</h3>
+          <h4>Sifat-Sifat Logaritma</h4>
+        </section>
+
+        <hr>
+
+        <section id="trigonometri">
+          <h3 style="color: #9bf1ff">Trigonometri</h3>
+          <h4 class="notasi">Sudut Istimewa</h4>
+          <h4 class="notasi">Aturan Segitiga Siku-Siku</h4>
+          <div class="row">
+            <div class="6u 12u$(small)">
+              <span class="image" style="width:90%"><img src="{% link assets/images/aturan-siku-siku.svg %}" alt="gambar gradien negatif, 0, dan positif" /></span>
+            </div>
+            <div class="6u 12u$(small)">
+              <p class="notasi">$$\sin(\alpha)=\frac{a}{c}=\frac{\text{depan}}{\text{miring}}$$</p>
+              <p class="notasi">$$\cos(\alpha)=\frac{b}{c}=\frac{\text{samping}}{\text{miring}}$$</p>
+              <p class="notasi">$$\tan(\alpha)=\frac{a}{c}=\frac{\text{depan}}{\text{samping}}$$</p>
+            </div>
+          </div>
+
+
+          <span class="image" style="width:70%"><img src="{% link assets/images/sinus-sama-kaki.svg %}" alt="gambar gradien negatif, 0, dan positif" /></span>
+          <h4 class="notasi">Jumlah dan Selisih Dua Sudut</h4>
+          <h4 class="notasi">Sudut Kembar</h4>
+          <h4 class="notasi">Jumlah dan Selisih Fungsi</h4>
+          <h4 class="notasi">Perkalian</h4>
+          <h4 class="notasi">Sudut Paruh</h4>
+          <h4 class="notasi">Persamaan Trigonometri</h4>
+        </section>
+
+        <hr>
+
+        <section id="vektor">
+          <h3 style="color: #9bf1ff">Vektor</h3>
+          <h4 class="notasi">Vektor Posisi</h4>
+          <h4 class="notasi">Vektor Satuan</h4>
+          <h4 class="notasi">Panjang Vektor</h4>
+          <h4 class="notasi">Operasi Vektor</h4>
+          <span class="image" style="width:70%"><img src="{% link assets/images/penjumlahan-vektor.svg %}" alt="penjumlahan antar 2 vektor" /></span>
+          <h4 class="notasi">Proyeksi Ortogonal</h4>
+        </section>
+
+        <hr>
+
+        <section id="turunan">
+          <h3 style="color: #9bf1ff">Turunan</h3>
+          <h4 class="notasi">Rumus-Rumus Dasar</h4>
+          <div class="table-wrapper">
+            <table class="alt">
+              <thead>
+                <tr>
+                  <th>No</th>
+                  <th>\(f(x)\)</th>
+                  <th>\(f'(x)\)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>\(k\)</td>
+                  <td>\(0\)</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>\(ax^n\)</td>
+                  <td>\(an\cdot x^{n-1}\)</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>\(af(x)\)</td>
+                  <td>\(af'(x)\)</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>\(f(u)\)</td>
+                  <td>\(f'(u)\cdot u'\)</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>\(u\pm v\)</td>
+                  <td>\(u'\pm v'\)</td>
+                </tr>
+                <tr>
+                  <td>6</td>
+                  <td>\(uv\)</td>
+                  <td>\(u'v+uv'\)</td>
+                </tr>
+                <tr>
+                  <td>7</td>
+                  <td>\(\dfrac{u}{v}\)</td>
+                  <td>\(\dfrac{u'v-uv'}{v^2}\)</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h4 class="notasi">Rumus-Rumus Lanjutan</h4>
+          <div class="table-wrapper">
+            <table class="alt">
+              <thead>
+                <tr>
+                  <th>No</th>
+                  <th>\(f(x)\)</th>
+                  <th>\(f'(x)\)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>\(e^x\)</td>
+                  <td>\(e^x\)</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>\(\ln(x)\)</td>
+                  <td>\(\dfrac{1}{x}\)</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>\(\log_{a}{x}\)</td>
+                  <td>\(\frac{1}{x} \left(\log_{a}{e}\right)\)</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>\(\sin(x)\)</td>
+                  <td>\(\cos(x)\)</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>\(\cos(x)\)</td>
+                  <td>\(-\sin(x)\)</td>
+                </tr>
+                <tr>
+                  <td>6</td>
+                  <td>\(\tan(x)\)</td>
+                  <td>\(\sec^2(x)\)</td>
+                </tr>
+                <tr>
+                  <td>7</td>
+                  <td>\(\sin^{-1}(x)\)</td>
+                  <td>\(\dfrac{1}{\sqrt{1-x^2}}\)</td>
+                </tr>
+                <tr>
+                  <td>8</td>
+                  <td>\(\cos^{-1}(x)\)</td>
+                  <td>\(\dfrac{-1}{\sqrt{1-x^2}}\)</td>
+                </tr>
+                <tr>
+                  <td>9</td>
+                  <td>\(\tan^{-1}(x)\)</td>
+                  <td>\(\dfrac{1}{1+x^2}\)</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h4 class="notasi">Chain Rule</h4>
+          <p class="notasi">\(y=f(u)\ \ \ \ \ \ \ \ \ u=u(x)\)</p>
+          <p>$$\frac{dy}{dx}=\frac{df(u)}{du}\cdot \frac{du}{dx}=f'(x) \frac{du}{dx}$$</p>
+          <p class="notasi">Contoh:</p>
+          <p class="notasi">Jika \(y=\sin\left(x^2+3\right)\) tentukan \(\frac{dy}{dx}\) </p>
+          <p class="notasi">Misalkan \(u=x^2+3\) sehingga \frac{du}{dx}=2x</p>
+          <p>
+            $$
+            \begin{align}
+            \frac{dy}{dx}&=\frac{dy}{du}\frac{du}{dx}\\
+            &=\cos(u) \cdot 2x\\
+            &=2x \cos(x^2+3)
+            \end{align}
+            $$
+          </p>
+
+          <h4 class="notasi">Aplikasi Turunan</h4>
+          <ul>
+            <li>Gradien kurva pada titik \((a,b)\) \(m=f'(a)\)</li>
+            <li>Fungsi turun : \(f'(x)&lt;0\)</li>
+            <li>Fungsi naik : \(f'(x)&gt;0\)</li>
+            <li>Maks : \(f'(x)=0;\ f''(x)&lt;0\)</li>
+            <li>Min : \(f'(x)=0;\ f''(x)&gt;0\)</li>
+            <li>Titik belok : \(f''(x)=0\)</li>
+          </ul>
+        </section>
+
+        <hr>
+
+        <section id="integral">
+          <h3 style="color: #9bf1ff">Integral</h3>
+
+          <h4 class="notasi">Integral Fungsi Aljabar</h4>
+
+          <h4 class="notasi">Sifat Linear Integral</h4>
+
+          <h4 class="notasi">Integral Tentu</h4>
+
+          <h4 class="notasi">Sifat-Sifat Integral Tentu</h4>
+
+          <h4 class="notasi">Rumus-Rumus Integral</h4>
+
+          <h4 class="notasi">Integral Parsial</h4>
+
+          <h4 class="notasi">Integral Subtitusi</h4>
+          <p>$$\int f \big( g(x) \big) \Big) \bigg) \Bigg) g'(x) \,dx$$</p>
+          <p>Misalkan \(\)</p>
+
+          <h4 class="notasi">Menentukan Luas Daerah</h4>
+          <ul>
+            <li>$$L=\int_{a}^b \Left( y_{atas} - y_{bawah} \Right) \,dx$$</li>
+            <li>$$L=\int_{a}^b \Left( y_{kanan} - y_{kiri} \Right) \,dy$$</li>
+          </ul>
+
+          <h4 class="notasi">Menentukan Volume</h4>
+          <ul>
+            <li>$$V_x=\pi \int_{a}^b \Left( y_{atas}^2 - y_{bawah}^2\Right) \,dx$$</li>
+            <li>$$V_y=\pi \int_{a}^b \Left( y_{kanan}^2 - y_{kiri}^2\Right) \,dy$$</li>
+          </ul>
+
+        </section>
+
+        <hr>
+
+        <section id="matriks">
+          <h3 style="color: #9bf1ff">Matriks</h3>
+          <h4 class="notasi">Ordo Matriks</h4>
+          <h4 class="notasi">Operasi Matriks</h4>
+          <h4 class="notasi">Determinan Matriks</h4>
+          <h4 class="notasi">Sifat Determinan Matriks</h4>
+          <ol>
+            <li>\(\text{det}(A^T)=\text{det}(A)\)</li>
+            <li>\(\text{det}(A^{-1})=\frac{1}{\text{det}(A)}\)</li>
+            <li>\(\text{det}(kA)=k^n\cdot \text{det}(A)\)</li>
+            <li>\(\text{det}(A\cdot B)=\text{det}(A)\cdot \text{det}(B)\)</li>
+            <li>\(\text{det}(A^k)=(\text{det}(A))^k\)</li>
+          </ol>
+          <h4 class="notasi">Matriks Transpos</h4>
+          <h4 class="notasi">Invers Matriks</h4>
+          <h4 class="notasi">Persamaan Matriks</h4>
+          <P>
+            $$
+            \begin{align}
+            A\cdot B &= C
+                   A &= C\cdot B^{-1}
+                   B &= A^{-1}\cdot C
+            \end{align}
+            $$
+          </P>
+        </section>
+
+        <hr>
+
+        <section id="transformasi_geometri">
+          <h3 style="color: #9bf1ff">Transformasi Geometri</h3>
+          <h4 class="notasi">Translasi</h4>
+          <h4 class="notasi">Rotasi</h4>
+          <h4 class="notasi">Refleksi</h4>
+          <h4 class="notasi">Dilatasi</h4>
+        </section>
+      </div>
 
 <hr class="major">
 </div>
