@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Rumus
-image: assets/images/pic01.jpg
+image: assets/images/muter.jpg
 nav-menu: true
 ---
 
@@ -463,7 +463,7 @@ nav-menu: true
         <section id="fungsi">
           <h3 style="color: #9bf1ff">Fungsi</h3>
           <h4 class="notasi">Domain</h4>
-          <p>Daerah asal dari suatu fungsi</p>
+          <p class="notasi">Daerah asal dari suatu fungsi</p>
           <ul>
             <li>\(f(x)=\sqrt{a}\) domainnya adalah \(a>=0\)</li>
             <li>\(f(x)=\dfrac{a}{b}\) domainnya adalah \(b\neq0\)</li>
@@ -471,21 +471,21 @@ nav-menu: true
           </ul>
 
           <h4 class="notasi">Fungsi Invers</h4>
-          <p>Invers dari \(f(x)\) dinotasikan sebagai \(f^{-1}(x)\)</p>
-          <p>$$f(x)=y \Rightarrow f^{-1}(y)=x$$</p>
+          <p class="notasi">Invers dari \(f(x)\) dinotasikan sebagai \(f^{-1}(x)\)</p>
+          <p class="notasi">$$f(x)=y \Rightarrow f^{-1}(y)=x$$</p>
           <ul>
             <li>\(f(x)=ax+b\Rightarrow f^{-1}(x)=\dfrac{x-b}{a}\)</li>
             <li>\(f(x)=\dfrac{ax+b}{cx+d}\Rightarrow f^{-1}(x)=\dfrac{-dx+b}{cx-a}\)</li>
-            <li>\(f(x)=a^{bx+c}\Rightarrow f^{-1}(x)=\dfrac{log_{a}{(x)}-c}{b}\)</li>
+            <li>$$f(x)=a^{bx+c}\Rightarrow f^{-1}(x)=\dfrac{log_{a}{(x)}-c}{b}$$</li>
             <li>\(f(x)=\log_{a}{(bx+c)}\Rightarrow f^{-1}(x)=\frac{a^x-c}{b}\)</li>
           </ul>
 
           <h4 class="notasi">Fungsi Komposisi</h4>
           <ul>
-            <li>\((f\circ g)(x)= f(g(x))\)</li>
-            <li>\((f^{-1})^{-1}(x)=f(x)\)</li>
-            <li>\((f\circ g)^{-1}(x)=g^{-1}\circ f^{-1}(x)\)</li>
-            <li>\(f^{-1}\circ f(x)=f \circ f^{-1}(x)=x\)</li>
+            <li>$$(f\circ g)(x)= f(g(x))$$</li>
+            <li>$$(f^{-1})^{-1}(x)=f(x)$$</li>
+            <li>$$(f\circ g)^{-1}(x)=g^{-1}\circ f^{-1}(x)$$</li>
+            <li>$$f^{-1}\circ f(x)=f \circ f^{-1}(x)=x$$</li>
           </ul>
         </section>
 
@@ -506,11 +506,11 @@ nav-menu: true
             <li>$$ \lim_{x\to a}\sqrt[n]{f(x)}=\sqrt[n]{\lim_{x\to a}f(x)}$$</li>
           </ul>
 
-          <h4 class="notasi">Limit Dengan Bentuk $$\lim_{x\to a}\frac{f(x)}{g(x)}=\frac{0}{0}$$</h4>
-          <p>Misal untuk: \(\lim\limits_{x\to 1}\frac{x^2+8x-9}{x^2-1}= \ldots\)</p>
+          <h4>Limit Dengan Bentuk $$\lim_{x\to a}\frac{f(x)}{g(x)}=\frac{0}{0}$$</h4>
+          <p class="notasi">Misal untuk: \(\lim\limits_{x\to 1}\frac{x^2+8x-9}{x^2-1}= \ldots\)</p>
           <ul>
             <li>Metode Pemfaktoran</li>
-            <p>Memfaktorkan pembilang dan penyebut, maka</p>
+            <p class="notasi">Memfaktorkan pembilang dan penyebut, maka</p>
             <p>$$
             \begin{align}
             &=\lim_{x\to 1} \frac{(x+9)(x-1)}{(x+1)(x-1)}\\
@@ -520,7 +520,7 @@ nav-menu: true
             $$
             </p>
             <li>Metode L'hopital</li>
-            <p>Mendifferensiasikan pembilang dan penyebut</p>
+            <p class="notasi">Mendifferensiasikan pembilang dan penyebut</p>
             <p>$$
             \begin{align}
             &=\lim_{x\to 1} \frac{2x+8}{2x}\\
@@ -530,31 +530,31 @@ nav-menu: true
             </p>
           </ul>
 
-          <h4 class="notasi">Limit Bentuk \(\lim\limits_{x\to \infty}\frac{f(x)}{g(x)}=\frac{\infty}{\infty}\)</h4>
-          <p>$$\lim_{x\to \infty}\frac{a_1x^m+a_2x^{m-1}+\ldots+a_m}{b_1x^n+b_2x^{n-1}+\dots+b_n}=$$</p>
-          <p>Penyelesaian, jika:</p>
+          <h4>Limit Dengan Bentuk \(\lim\limits_{x\to \infty}\frac{f(x)}{g(x)}=\frac{\infty}{\infty}\)</h4>
+          <p class="notasi">$$\lim_{x\to \infty}\frac{a_1x^m+a_2x^{m-1}+\ldots+a_m}{b_1x^n+b_2x^{n-1}+\dots+b_n}=$$</p>
+          <p class="notasi">Penyelesaian, jika:</p>
           <ul>
             <li>\(m&gt;n\), maka $$\lim_{x\to \infty} \frac{f(x)}{g(x)}=\infty$$</li>
             <li>\(m=n\), maka $$\lim_{x\to \infty} \frac{f(x)}{g(x)}=\frac{a_1}{b_1}$$</li>
             <li>\(m&lt;n\), maka $$\lim_{x\to \infty} \frac{f(x)}{g(x)}=0$$</li>
           </ul>
 
-          <h4 class="notasi">Limit Bentuk \(\lim\limits_{x\to \infty}\left(f(x)-g(x)\right)=\infty-\infty\)</h4>
-          <p>$$\lim_{x\to\infty} \left(\sqrt{ax^2+bx+c}-\sqrt{px^2+qx+r}\right)=\ldots$$</p>
-          <p>Penyelesaian, jika:</p>
+          <h4>Limit Dengan Bentuk \(\lim\limits_{x\to \infty}\left(f(x)-g(x)\right)=\infty-\infty\)</h4>
+          <p class="notasi">$$\lim_{x\to\infty} \left(\sqrt{ax^2+bx+c}-\sqrt{px^2+qx+r}\right)=\ldots$$</p>
+          <p class="notasi">Penyelesaian, jika:</p>
           <ul>
             <li>\(a&gt;p\), maka $$\lim_{x\to\infty} \left(f(x)-g(x)\right)=\infty$$</li>
             <li>\(a=p\), maka $$\lim_{x\to\infty} \left(f(x)-g(x)\right)=\frac{b-q}{2\sqrt{a}}$$</li>
             <li>\(a&lt;p\), maka $$\lim_{x\to\infty} \left(f(x)-g(x)\right)=-\infty$$</li>
           </ul>
 
-          <h4 class="notasi">Limit Trigonometri</h4>
+          <h4>Limit Trigonometri</h4>
           <ul>
             <li>$$\lim_{x\to 0} \frac{\sin(ax)}{bx}=\lim_{x\to 0} \frac{ax}{\sin(bx)}=\frac{a}{b}$$</li>
             <li>$$\lim_{x\to 0} \frac{\tan(ax)}{bx}=\lim_{x\to 0} \frac{ax}{\tan(bx)}=\frac{a}{b}$$</li>
             <li>$$\lim_{x\to 0} \frac{\sin(ax)}{\tan(bx)}=\lim_{x\to 0} \frac{\tan(ax)}{\sin(bx)}=\frac{a}{b}$$</li>
           </ul>
-          <p>Persamaan yang sering digunakan</p>
+          <p class="notasi">Persamaan yang sering digunakan</p>
           <ul>
             <li>$$1-\cos(A)=2\sin^2\left(\frac{A}{2}\right)$$</li>
             <li>$$1-\cos^2(A)=\sin^2(A)$$</li>
@@ -572,44 +572,44 @@ nav-menu: true
           <h3 style="color: #9bf1ff">Statistika</h3>
           <h4 class="notasi">Rata-Rata/Mean</h4>
           <p>$$\bar{x}=\frac{\sum x_i}{n}=\frac{\sum f_i x_i}{\sum f_i}$$</p>
-          <p>$$\bar{x}=x_s+\frac{\sum f_i d_i}{\sum f_i}=x_0+\left(\frac{\sum f_i ci}{\sum f_i}\right)p$$</p>
-          <p>Note:</p>
-          <p>\(\bar{x}=\) Rata-rata</p>
-          <p>\(x_s=\) Rata-rata sementara</p>
-          <p>\(x_0=\) Tanda kelas</p>
-          <p>\(f=\) Frekuensi</p>
-          <p>\(d=\) Deviasi \(d_i=x_i-x_s\)</p>
-          <p>\(p=\) Panjang kelas</p>
+          <p class="notasi">$$\bar{x}=x_s+\frac{\sum f_i d_i}{\sum f_i}=x_0+\left(\frac{\sum f_i ci}{\sum f_i}\right)p$$</p>
+          <p class="notasi">Note:</p>
+          <p class="notasi">\(\bar{x}=\) Rata-rata</p>
+          <p class="notasi">\(x_s=\) Rata-rata sementara</p>
+          <p class="notasi">\(x_0=\) Tanda kelas</p>
+          <p class="notasi">\(f=\) Frekuensi</p>
+          <p class="notasi">\(d=\) Deviasi \(d_i=x_i-x_s\)</p>
+          <p class="notasi">\(p=\) Panjang kelas</p>
           <p>\(c=\) Sandi tanda kelas, \(c=0\) untuk \(x_0\)</p>
 
           <h4 class="notasi">Modus</h4>
           <p>$$M_0=t_{mo}+\left(\frac{L_1}{L_1+L_2}\right)p$$</p>
-          <p>Note:</p>
-          <p>\(M_o=\) Modus</p>
-          <p>\(t_{mo}=\) Tepi bawah kelas modus</p>
-          <p>\(L_1=f\) kelas modus - \(f\) kelas sebelumnya</p>
+          <p class="notasi">Note:</p>
+          <p class="notasi">\(M_o=\) Modus</p>
+          <p class="notasi">\(t_{mo}=\) Tepi bawah kelas modus</p>
+          <p class="notasi">\(L_1=f\) kelas modus - \(f\) kelas sebelumnya</p>
           <p>\(L_2=f\) kelas modus - \(f\) kelas sesudahnya</p>
 
           <h4 class="notasi">Median</h4>
           <p>$$M_e=t_{me}+\left(\frac{\frac{n}{2}-f_k}{f_me}\right)p$$</p>
-          <p>Note:</p>
-          <p>\(M_e=\) Median</p>
-          <p>\(t_{me}=\) Tepi bawah kelas median</p>
-          <p>\(f_k=\) Frekuensi kumulatif sebelum kelas median</p>
+          <p class="notasi">Note:</p>
+          <p class="notasi">\(M_e=\) Median</p>
+          <p class="notasi">\(t_{me}=\) Tepi bawah kelas median</p>
+          <p class="notasi">\(f_k=\) Frekuensi kumulatif sebelum kelas median</p>
           <p>\(f_{me}=\) Frekuensi kelas median</p>
 
           <h4 class="notasi">Kuartil</h4>
           <p>$$Q_i=t_q+\left(\frac{\frac{i}{4}n -f_k}{f_q}\right)p$$</p>
-          <p>Note:</p>
-          <p>\(Q_i =\) Kuartil ke-i</p>
-          <p>\(t_q =\) Tepi bawah kelas kuartil</p>
-          <p>\(f_q =\) Frekuensi kelas kuartil<br></p>
-          <p>Untuk desil: \(\frac{i}{10}n\)</p>
+          <p class="notasi">Note:</p>
+          <p class="notasi">\(Q_i =\) Kuartil ke-i</p>
+          <p class="notasi">\(t_q =\) Tepi bawah kelas kuartil</p>
+          <p class="notasi">\(f_q =\) Frekuensi kelas kuartil<br></p>
+          <p class="notasi">Untuk desil: \(\frac{i}{10}n\)</p>
           <p>Untuk persentil: \(\frac{i}{100}n\)</p>
 
           <h4 class="notasi">Ukuran Penyebaran</h4>
           <ul>
-            <li>Jangkauan</li>
+            <li >Jangkauan</li>
             <p>$$J=x_{besar}-x_{kecil}$$</p>
             <li>Ragam</li>
             <p>$$R=\frac{\sum\left(x_i-\bar{x}\right)^2}{n}$$</p>
@@ -627,11 +627,11 @@ nav-menu: true
         <section id="peluang">
           <h3 style="color: #9bf1ff">Peluang</h3>
           <h4 class="notasi">Kombinatorik</h4>
-          <p>Jika suatu masalah diselesaikan dengan \(m\) cara dan masalah lain dengan \(n\) cara, maka gabungannya dapat diselesaikan dengan \(m\times n\) cara.</p>
+          <p class="notasi">Jika suatu masalah diselesaikan dengan \(m\) cara dan masalah lain dengan \(n\) cara, maka gabungannya dapat diselesaikan dengan \(m\times n\) cara.</p>
           <p>Contoh: Ada 2 baju dan 3 celana, banyaknya cara berpakaian yang mungkin adalah \(2\times 3 = 6\) cara</p>
 
           <h4 class="notasi">Permutasi</h4>
-          <p>Susunan elemen dalam urutan tanpa ada pengulangan elemen</p>
+          <p class="notasi">Susunan elemen dalam urutan tanpa ada pengulangan elemen</p>
           <p>\(n!=1\times 2\times \ldots \times (n-1) \times n\) dan \(0!=1\)</p>
           <ul>
             <li>Permutasi \(n\) elemen dari \(n\) elemen</li>
@@ -645,9 +645,9 @@ nav-menu: true
           </ul>
 
           <h4 class="notasi">Kombinasi</h4>
-          <p>Susunan dari semua/sebagian elemen dari suatu himpunan yang tidak mementingkan urutan</p>
+          <p class="notasi">Susunan dari semua/sebagian elemen dari suatu himpunan yang tidak mementingkan urutan</p>
           <p>$$C^n_r=\frac{n!}{(n-r)!r!}$$</p>
-          <p>Penyebaran Binomial, pola bilangan Segitiga Pascal</p>
+          <p class="notasi">Penyebaran Binomial, pola bilangan Segitiga Pascal</p>
           <p>$$\left(a+b\right)^n=\sum_{k=0}C^n_ka^{n-k}b^k$$</p>
 
           <h4 class="notasi">Frekuensi Harapan</h4>
@@ -668,8 +668,30 @@ nav-menu: true
             <li>$$S_n=\frac{n}{2}\left(a+U_n\right)=\frac{n}{2}\left(2a+b(n-1)\right)$$</li>
             <li>$$U_t=\frac{a+U_n}{2}$$</li>
           </ul>
+
           <h4 class="notasi">Deret Geometri</h4>
+          <p>$$r=\frac{U_n}{U_n-1}$$</p>
+          <p>$$r=\sqrt[n-p]{\frac{U_n}{U_p}}$$</p>
+          <p>$$U_n=a\cdot r^{n-1}$$</p>
+          <p>$$U_n=U_p\cdot r^{n-p}$$</p>
+          <p>$$S_n=\frac{a\left(r^n-1\right)}{r-1}$$</p>
+          <p>$$U_t=\sqrt{a\cdot U_n}$$</p>
+
           <h4 class="notasi">Deret Geometri Tak Hingga</h4>
+          <ol>
+            <li>Divergen</li>
+            <p class="notasi">$$r\leq -1 \cup r\geq 1$$</p>
+            <p>Jumlah deret ini tidak bisa ditentukan</p>
+            <li>Konvergen</li>
+            <p class="notasi">$$-1 &lt; r &lt; 1$$</p>
+            <p class="notasi">$$S_\infty = \frac{a}{1-r}$$</p>
+            <ul>
+              <li>Deret tak hingga ganjil</li>
+              <p>$$U_1+U_3+U_5+\ldots=\frac{a}{1-r^2}$$</p>
+              <li>Deret tak hingga genap</li>
+              <p>$$U_2+U_4+U_6+\ldots=\frac{ar}{1-r^2}$$</p>
+            </ul>
+          </ol>
         </section>
 
         <hr>
@@ -677,20 +699,71 @@ nav-menu: true
         <section id="matematika_keuangan">
           <h3 style="color: #9bf1ff">Matematika Keuangan</h3>
           <h4 class="notasi">Bunga</h4>
+          <ul>
+            <li>Bunga Tunggal</li>
+            <p>$$I=M\times i\times n$$</p>
+            <p class="notasi">\(I=\) Bunga yang diperoleh</p>
+            <p class="notasi">\(M=\) Modal awal</p>
+            <p class="notasi">\(i=\) Presentasi bunga</p>
+            <p>\(n=\) Jangka waktu</p>
+
+            <li>Bunga Majemuk</li>
+            <p>$$M_n=M(1+i)^n$$</p>
+            <p class="notasi">\(M_n=\) Modal setelah dibungakan</p>
+            <p class="notasi">\(M=\) Modal awal</p>
+            <p class="notasi">\(i=\) Persentase bunga</p>
+            <p>\(n=\) Jangka waktu</p>
+          </ul>
+
           <h4 class="notasi">Anuitas</h4>
+          <ul>
+            <li>Anuitas</li>
+            <p class="notasi">$$A=\frac{M\cdot i}{1-(1+i)^{-n}}$$</p>
+            <p class="notasi">\(A=\) Anuitas</p>
+            <p class="notasi">\(M=\) Pinjaman</p>
+            <p class="notasi">\(i=\) Bunga</p>
+            <p>\(n=\) Periode pinjaman</p>
+
+            <li>Angsuran</li>
+            <p>$$a_n=a_1 \left(1+i \right)^{n-1}$$</p>
+            <p class="notasi">\(a_1=\) Angsuran pertama</p>
+            <p class="notasi">\(a_n=\) Angsuran ke-\(n\)</p>
+            <p class="notasi">\(i=\) Bunga</p>
+            <p>\(n=\) Periode pinjaman</p>
+
+            <li>Sisa</li>
+            <p>$$S_n=\frac{b_{n+1}}{i}$$</p>
+            <p class="notasi">\(S_n=\) Sisa pembayaran</p>
+            <p class="notasi">\(b=\) Bunga periode</p>
+            <p>\(i=\) Bunga</p>
+          </ul>
         </section>
 
         <hr>
 
         <section id="logaritma">
           <h3 style="color: #9bf1ff">Logaritma</h3>
+          <p>$$a^c=b$$</p>
+          <p>$$\log_a(b)=c,\ a &gt; 0,\ a\neq 0,\ b&gt; 0$$</p>
           <h4>Sifat-Sifat Logaritma</h4>
+          <ul>
+            <li>$$\log_a{a}=1$$</li>
+            <li>$$\log_a{bc}=\log_a{b}+\log_a{c}$$</li>
+            <li>$$\log_a{\frac{b}{c}}=\log_a{b}-\log_a{c}$$</li>
+            <li>$$\log_{a^n}{b^m}=\frac{m}{n}\log_a{b}$$</li>
+            <li>$$\log_a{b}=\frac{1}{\log_b{a}}$$</li>
+            <li>$$\log_a{b}=\frac{\log_c{b}}{\log_c{a}}$$</li>
+            <li>$$a^{\log_a{b}}=b$$</li>
+            <li>$$a^{\log_b{c}}=c^{\log_b{a}}$$</li>
+            <li>$$\log_a{b} \cdot \log_b{c}=\log_a{c}$$</li>
+          </ul>
         </section>
 
         <hr>
 
         <section id="trigonometri">
           <h3 style="color: #9bf1ff">Trigonometri</h3>
+          <span class="image" style="width:90%"><img src="{% link assets/images/trigono_lingkaran.svg %}" alt="gambar gradien negatif, 0, dan positif" /></span>
           <h4 class="notasi">Sudut Istimewa</h4>
           <h4 class="notasi">Aturan Segitiga Siku-Siku</h4>
           <div class="row">
