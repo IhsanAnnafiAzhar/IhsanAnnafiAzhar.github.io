@@ -97,7 +97,7 @@ nav-menu: true
           </ol>
           <p class="notasi">Jika \(a &gt; b &gt; 0\), maka</p>
           <ol>
-            <li>\(a^2 &gt; b^2\)</li>
+            <li class="notasi">\(a^2 &gt; b^2\)</li>
             <li>$$\frac{1}{a} &lt; \frac{1}{b}$$</li>
           </ol>
 
@@ -509,7 +509,7 @@ nav-menu: true
           <h4>Limit Dengan Bentuk $$\lim_{x\to a}\frac{f(x)}{g(x)}=\frac{0}{0}$$</h4>
           <p class="notasi">Misal untuk: \(\lim\limits_{x\to 1}\frac{x^2+8x-9}{x^2-1}= \ldots\)</p>
           <ul>
-            <li>Metode Pemfaktoran</li>
+            <li><strong>Metode Pemfaktoran</strong></li>
             <p class="notasi">Memfaktorkan pembilang dan penyebut, maka</p>
             <p>$$
             \begin{align}
@@ -519,7 +519,7 @@ nav-menu: true
             \end{align}
             $$
             </p>
-            <li>Metode L'hopital</li>
+            <li><strong>Metode L'hopital</strong></li>
             <p class="notasi">Mendifferensiasikan pembilang dan penyebut</p>
             <p>$$
             \begin{align}
@@ -765,6 +765,41 @@ nav-menu: true
           <h3 style="color: #9bf1ff">Trigonometri</h3>
           <span class="image" style="width:90%"><img src="{% link assets/images/trigono_lingkaran.svg %}" alt="gambar gradien negatif, 0, dan positif" /></span>
           <h4 class="notasi">Sudut Istimewa</h4>
+          <span class="image" style="width:90%"><img src="{% link assets/images/sudut_trigono.svg %}" alt="gambar sudut trigonometri" /></span>
+          <p>Setiap gais merah membentuk sudut kelipatan 30&deg; dan garis hijau kelipatan 45&deg;. Contoh</p>
+          <ol>
+            <li>$$\sin(60&deg;)=\ldots$$</li>
+            <span class="image" style="width:90%"><img src="{% link assets/images/sin90.svg %}" alt="gambar sudut trigonometri" /></span>
+            <p>Pada gambar, \(\sin\) terletak di sebelah kiri, maka hitunglah 60&deg; dari sebelah kiri sehingga diperoleh \(\dfrac{1}{2}\sqrt{3}\)</p>
+            <li>$$\cos(150&deg;)=\ldots$$</li>
+            <span class="image" style="width:90%"><img src="{% link assets/images/cos150.svg %}" alt="gambar sudut trigonometri" /></span>
+            <p>Pada gambar, \(\sin\) terletak di sebelah kanan, maka hitunglah 150&deg; dari sebelah kanan sehingga diperoleh \(-\dfrac{1}{2}\sqrt{3}\) (negatif karena di kuadran 2)</p>
+          </ol>
+          <ul>
+            <li>$$
+                \begin{align}
+                \sin(x)&=\sin(\alpha)\\
+                x&=\alpha \pm k\cdot 360 &deg;\\
+                x&=(180-\alpha)\pm k \cdot 360 &deg;
+                \end{align}
+                $$
+            </li>
+            <li>$$
+                \begin{align}
+                \cos(x)&=\cos(\alpha)\\
+                x&=\alpha \pm k\cdot 360 &deg;\\
+                x&=-\alpha \pm k \cdot 360 &deg;
+                \end{align}
+                $$
+            </li>
+            <li>$$
+                \begin{align}
+                \tan(x)&=\tan(\alpha)\\
+                x&=\alpha \pm k\cdot 180 &deg;
+                \end{align}
+                $$
+            </li>
+          </ul>
           <h4 class="notasi">Aturan Segitiga Siku-Siku</h4>
           <div class="row">
             <div class="6u 12u$(small)">
