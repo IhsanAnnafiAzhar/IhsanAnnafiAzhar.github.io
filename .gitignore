@@ -6,3 +6,5 @@ Gemfile.lock
 .jekyll-cache
 .phcode.json
 .prettierrc
+node_modules/
+.phcode.json
