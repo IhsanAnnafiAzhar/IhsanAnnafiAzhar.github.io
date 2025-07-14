@@ -1,8 +1,8 @@
 # site settings
-title: Ihsan
-subtitle: Annafi Azhar
+title: Hobby
+subtitle: Project
 email: i.annafi.a27@gmail.com
-description: Website ini dibuat dengan template yang dibuat oleh dibuat oleh Andrew Banchich.
+description: Website untuk mengisi kegabutan gweh selama masa akhir perkuliahan
 baseurl: # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author: Ihsan Annafi Azhar

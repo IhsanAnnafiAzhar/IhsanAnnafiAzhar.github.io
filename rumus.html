@@ -191,22 +191,34 @@ nav-menu: true
 
             <h4 class="notasi">Gradien \((m)\)</h4>
             <p>Kemiringan suatu garis</p>
-            <span class="image" style="width: 70%"
-              ><img
-                src="{% link assets/images/gradien.svg %}"
-                alt="gambar gradien negatif, 0, dan positif"
-            /></span>
-            <ol>
-              <li>\(y=mx+c\), gradien= \(m\)</li>
-              <li>
-                \(ax+by+c=0\), <br />
-                maka \(m=\dfrac{-a}{b}\)
-              </li>
-              <li>
-                Jika diketahui 2 titik, maka \(m=\dfrac{y_2-y_1}{x_2-x_1}\)
-              </li>
-              <li>Jika diketahui sudut, maka \(m=tg \alpha\)</li>
-            </ol>
+
+            <div class="row">
+              <div class="6u 12u$(small)">
+                <ol>
+                  <li>\(y=mx+c\), gradien= \(m\)</li>
+                  <li>
+                    \(ax+by+c=0\), <br />
+                    maka \(m=\dfrac{-a}{b}\)
+                  </li>
+                  <li>
+                    Jika diketahui 2 titik, maka \(m=\dfrac{y_2-y_1}{x_2-x_1}\)
+                  </li>
+                  <li>Jika diketahui sudut, maka \(m=tg \alpha\)</li>
+                </ol>
+              </div>
+              <div class="6u 12u$(small)">
+                <span class="image"
+                  ><img
+                    src="{% link assets/images/gradien.svg %}"
+                    alt="gambar gradien negatif, 0, dan positif"
+                    style="
+                      max-width: 95%;
+                      margin-left: auto;
+                      margin-right: auto;
+                    "
+                /></span>
+              </div>
+            </div>
 
             <h4 class="notasi">Hubungan Antar Garis</h4>
             <p class="notasi">
@@ -267,18 +279,24 @@ nav-menu: true
 
             <h4 class="notasi">Hubungan \(a,b,c\) dan \(D\) terhadap kurva</h4>
             <p class="notasi"><b>Nilai \(a\) </b></p>
-            <span class="image" style="width: 70%"
-              ><img src="{% link assets/images/a_kurva.svg %}" alt="kurva a"
+            <span class="image"
+              ><img
+                src="{% link assets/images/a_kurva.svg %}"
+                alt="kurva a"
+                style="max-width: 80%; margin-left: auto; margin-right: auto"
             /></span>
             <p class="notasi"><b>Nilai \(b\) </b></p>
-            <span class="image" style="width: 70%"
-              ><img src="{% link assets/images/b_kurva.svg %}" alt="kurva a"
+            <span class="image"
+              ><img
+                src="{% link assets/images/b_kurva.svg %}"
+                alt="kurva a"
+                style="max-width: 80%; margin-left: auto; margin-right: auto"
             /></span>
             <p class="notasi"><b>Nilai \(c\)* </b></p>
             <ul class="notasi">
-              <li>\(c &gt; 0\) memotong sumbub \(y\) positif</li>
-              <li>\(c &lt; 0\) memotong sumbub \(y\) negatif</li>
-              <li>\(c = 0\) memotong sumbub \(y\) di 0</li>
+              <li>\(c &gt; 0\) memotong sumbu \(y\) positif</li>
+              <li>\(c &lt; 0\) memotong sumbu \(y\) negatif</li>
+              <li>\(c = 0\) memotong sumbu \(y\) di 0</li>
             </ul>
             <p>
               * ketika parabola memotong sumbu \(y\), maka \(x=0\), sehingga
@@ -932,55 +950,101 @@ nav-menu: true
               ><img
                 src="{% link assets/images/trigono_lingkaran.svg %}"
                 alt="gambar gradien negatif, 0, dan positif"
+                style="max-width: 55%; margin-left: auto; margin-right: auto"
             /></span>
             <h4 class="notasi">Sudut Istimewa</h4>
-            <span class="image" style="width: 90%"
-              ><img
-                src="{% link assets/images/sudut_trigono.svg %}"
-                alt="gambar sudut trigonometri"
-            /></span>
-            <p>
-              Setiap gais merah membentuk sudut kelipatan 30&deg; dan garis
-              hijau kelipatan 45&deg;. Contoh
-            </p>
+            <div class="row">
+              <div class="7u 12u$(small)">
+                <span class="image" style="width: 90%"
+                  ><img
+                    src="{% link assets/images/sudut_trigono_1.1.svg %}"
+                    alt="gambar sudut trigonometri"
+                    style="
+                      max-width: 75%;
+                      margin-left: auto;
+                      margin-right: auto;
+                    "
+                /></span>
+              </div>
+              <div class="5u 12u$(small)">
+                <p style="margin: 2em 0">
+                  Setiap garis merah membentuk sudut kelipatan 30&deg; dan garis
+                  hijau kelipatan 45&deg;.
+                </p>
+              </div>
+            </div>
+
             <ol>
               <li>$$\sin(60&deg;)=\ldots$$</li>
-              <span class="image" style="width: 90%"
-                ><img
-                  src="{% link assets/images/sin90.svg %}"
-                  alt="gambar sudut trigonometri"
-              /></span>
-              <p>
-                Pada gambar, \(\sin\) terletak di sebelah kiri, maka hitunglah
-                60&deg; dari sebelah kiri sehingga diperoleh
-                \(\dfrac{1}{2}\sqrt{3}\)
-              </p>
+
+              <div class="row">
+                <div class="7u 12u$(small)">
+                  <span class="image" style="width: 90%"
+                    ><img
+                      src="{% link assets/images/sin60.svg %}"
+                      alt="gambar sudut trigonometri sin60"
+                      style="
+                        max-width: 75%;
+                        margin-left: auto;
+                        margin-right: auto;
+                      "
+                  /></span>
+                </div>
+                <div class="5u 12u$(small)">
+                  <p>
+                    Pada gambar, \(\sin\) terletak di sebelah kiri, maka
+                    hitunglah 60&deg; dari sebelah kiri sehingga diperoleh
+                    \(\dfrac{1}{2}\sqrt{3}\)
+                  </p>
+                </div>
+              </div>
+
               <li>$$\cos(150&deg;)=\ldots$$</li>
-              <span class="image" style="width: 90%"
-                ><img
-                  src="{% link assets/images/cos150.svg %}"
-                  alt="gambar sudut trigonometri"
-              /></span>
-              <p>
-                Pada gambar, \(\sin\) terletak di sebelah kanan, maka hitunglah
-                150&deg; dari sebelah kanan sehingga diperoleh
-                \(-\dfrac{1}{2}\sqrt{3}\) (negatif karena di kuadran 2)
-              </p>
+
+              <div class="row">
+                <div class="7u 12u$(small)">
+                  <span class="image" style="width: 90%"
+                    ><img
+                      src="{% link assets/images/cos150.svg %}"
+                      alt="gambar sudut trigonometri cos150"
+                      style="
+                        max-width: 75%;
+                        margin-left: auto;
+                        margin-right: auto;
+                      "
+                  /></span>
+                </div>
+                <div class="5u 12u$(small)">
+                  <p>
+                    Pada gambar, \(\cos\) terletak di sebelah kanan, maka
+                    hitunglah 150&deg; dari sebelah kanan sehingga diperoleh
+                    \(-\dfrac{1}{2}\sqrt{3}\) (negatif karena di kuadran 2)
+                  </p>
+                </div>
+              </div>
             </ol>
-            <ul>
-              <li>
-                $$ \begin{align} \sin(x)&=\sin(\alpha)\\ x&=\alpha \pm k\cdot
-                360 &deg;\\ x&=(180-\alpha)\pm k \cdot 360 &deg; \end{align} $$
-              </li>
-              <li>
-                $$ \begin{align} \cos(x)&=\cos(\alpha)\\ x&=\alpha \pm k\cdot
-                360 &deg;\\ x&=-\alpha \pm k \cdot 360 &deg; \end{align} $$
-              </li>
-              <li>
-                $$ \begin{align} \tan(x)&=\tan(\alpha)\\ x&=\alpha \pm k\cdot
-                180 &deg; \end{align} $$
-              </li>
-            </ul>
+
+            <div class="row">
+              <div class="6u 12u$(small)">
+                <p>
+                  $$ \begin{align} \sin(x)&=\sin(\alpha)\\ x&=\alpha \pm k\cdot
+                  360 &deg;\\ x&=(180-\alpha)\pm k \cdot 360 &deg; \end{align}
+                  $$
+                </p>
+              </div>
+              <div class="6u 12u$(small)">
+                <p>
+                  $$ \begin{align} \cos(x)&=\cos(\alpha)\\ x&=\alpha \pm k\cdot
+                  360 &deg;\\ x&=-\alpha \pm k \cdot 360 &deg; \end{align} $$
+                </p>
+              </div>
+            </div>
+
+            <p style="text-align: center">
+              \( \begin{align} \tan(x)&=\tan(\alpha)\\ x&=\alpha \pm k\cdot 180
+              &deg; \end{align} \)
+            </p>
+
             <h4 class="notasi">Aturan Segitiga Siku-Siku</h4>
             <div class="row">
               <div class="6u 12u$(small)">
@@ -1003,11 +1067,28 @@ nav-menu: true
               </div>
             </div>
 
+            <div class="row">
+              <div class="6u 12u$(small)">
+                <p class="notasi" style="vertical-align: middle">
+                  $$\sin^2(\alpha)+\cos^2(\alpha) = 1$$
+                </p>
+              </div>
+              <div class="6u 12u$(small)">
+                <p class="notasi" style="vertical-align: middle">
+                  $$\frac{\sin(\alpha)}{\cos(\alpha)}=\tan(\alpha)$$
+                </p>
+              </div>
+            </div>
+
             <span class="image" style="width: 70%"
               ><img
                 src="{% link assets/images/sinus-sama-kaki.svg %}"
                 alt="gambar gradien negatif, 0, dan positif"
             /></span>
+            <p class="notasi">
+              $$\frac{a}{\sin(A)}=\frac{b}{\sin(B)}=\frac{c}{\sin(C)}$$
+            </p>
+
             <h4 class="notasi">Jumlah dan Selisih Dua Sudut</h4>
             <h4 class="notasi">Sudut Kembar</h4>
             <h4 class="notasi">Jumlah dan Selisih Fungsi</h4>
