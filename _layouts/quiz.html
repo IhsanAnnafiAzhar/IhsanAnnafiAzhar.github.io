@@ -1,0 +1,131 @@
+---
+layout: table_wrappers
+---
+
+<!doctype html>
+
+<html lang="{{ site.lang | default: 'en' }}">
+  {% include head.html %}
+  <body>
+    <a class="skip-to-main" href="#main-content">Skip to main content</a>
+    {% include icons/icons.html %} {% if page.nav_enabled == true %} {% include
+    components/sidebar.html %} {% elsif layout.nav_enabled == true and
+    page.nav_enabled == nil %} {% include components/sidebar.html %} {% elsif
+    site.nav_enabled != false and layout.nav_enabled == nil and page.nav_enabled
+    == nil %} {% include components/sidebar.html %} {% endif %}
+    <div class="main" id="top">
+      {% include components/header.html %}
+      <div class="main-content-wrap">
+        {% include components/breadcrumbs.html %}
+        <main class="main-content">           
+          <div
+            class="quiz-container"
+            style="
+              opacity: 1;
+              transform: translateY(0px);
+              transition:
+                opacity 0.6s ease-out,
+                transform 0.6s ease-out;
+            "
+          >
+            <div class="container">
+              <header class="quiz-header">
+                <h1 class="quiz-title">{{page.title}}</h1>
+                {% if page.description %}
+                <p class="quiz-description">{{ page.description }}</p>
+                {% endif %}
+              </header>
+
+              <div class="quiz-content">
+                <div class="quiz-progress">
+                  <div class="progress-bar">
+                    <div class="progress-fill" id="progress-fill"></div>
+                  </div>
+                  <span class="progress-text">
+                    <span id="current-question">1</span> dari
+                    <span id="total-q">{{page.questions.size}}</span> soal
+                  </span>
+                </div>
+                <div class="quiz-questions" id="quiz-questions"></div>
+                <!--SOale nang kene-->
+                <div class="quiz-controls">
+                  <button class="btn btn-purple" id="prev-btn">
+                    <!--i class="fas fa-arrow-left"></i-->
+                    Sebelumnya
+                  </button>
+                  <button
+                    class="btn btn-blue"
+                    id="next-btn"
+                    style="display: none"
+                    disabled=""
+                  >
+                    Selanjutnya
+                    <!--i class="fas fa-arrow-right"></i-->
+                  </button>
+                  <button
+                    class="btn btn-green"
+                    id="submit-btn"
+                    style="display: none"
+                    disabled=""
+                  >
+                    <!--i class="fas fa-check"></i-->
+                    Submit Kuis
+                  </button>
+                </div>
+              </div>
+
+              <div class="quiz-results" id="quiz-results" style="display: none">
+                <div class="results-header">
+                  <h2>Kuis Selesai!</h2>
+                  <div class="score-circle">
+                    <div class="score-number" id="score-percentage">0%</div>
+                    <div class="score-text">Skor</div>
+                  </div>
+                </div>
+
+                <div class="results-details">
+                  <p id="results-message"></p>
+                  <div class="results-stats">
+                    <div class="stat">
+                      <span class="stat-number" id="correct-answers">0</span>
+                      <span class="stat-label">Benar</span>
+                    </div>
+                    <div class="stat">
+                      <span class="stat-number" id="incorrect-answers">0</span>
+                      <span class="stat-label">Salah</span>
+                    </div>
+                  </div>
+                  <button class="btn btn-blue" onclick="location.reload()">
+                    <!--i class="fas fa-redo"></i-->
+                    Ulangi Kuis
+                  </button>
+                  <button
+                    href="https://xaffan.github.io/traffic-quiz/quizzes/"
+                    class="btn btn-purple"
+                  >
+                    <!--i class="fas fa-list"></i-->
+                    Kuis Lainnya
+                  </button>
+                </div>
+              </div>
+            </div>
+              
+          </main>
+          <script>
+            
+            const quizData = {
+                title: "{{ page.title }}",
+                questions: {{ page.questions | jsonify }}
+            };
+
+            // Quiz JavaScript will be loaded from main.js
+          </script>
+          {% if page.has_toc != false %} {% include components/children_nav.html
+          %} {% endif %} {% include components/footer.html %}
+        </div>
+              {% if site.search_enabled != false %} {% include
+      components/search_footer.html %} {% endif %}
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+
+
+        <!-- button class="btn js-toggle-dark-mode">Preview dark color scheme</button -->
+
+        <!-- Auxiliary link -->
+      <div>
+        <button class="btn js-toggle-dark-mode"
+        style="
+         display: flex;
+  height: 3.75em;
+  align-items: center;
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 500;
+  line-height: 1.5;
+  cursor: pointer;
+  border-width: 0;
+  box-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.12),
+    0 3px 10px rgba(0, 0, 0, 0.08);
+  appearance: none;
+  ">
+                 🎨
+      </button>
+
+<script>
+const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
+
+jtd.addEvent(toggleDarkMode, 'click', function(){
+  if (jtd.getTheme() === 'dark') {
+    jtd.setTheme('light');
+    toggleDarkMode.textContent = '☀️';
+  } else {
+    jtd.setTheme('dark');
+    toggleDarkMode.textContent = '🌑';
+  }
+});
+</script>
+</div>
