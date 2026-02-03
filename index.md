@@ -1,13 +1,13 @@
 ---
-title: Home
 layout: home
-nav_order: 0
-permalink: /
+title: Home
+landing-title: 'Hai :D'
+description: null
+image: null
+author: null
+show_tile: false
 ---
 
+Terima kasih sudah mengunjungi website ini.
 
-# Scrolling is Fun
-{: .text-left .fw-500}
-
-# Learning is boring
-{: .text-right .mt-1 .mb-5 .fw-500}
+Barangkali ada kritik, saran, atau mau benerin kode di web ini, bisa lewat repositori di GitHub aja ya

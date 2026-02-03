@@ -1,14 +1,9 @@
-source "https://rubygems.org"
-gemspec
+source 'https://rubygems.org'
 
-gem "base64"
-gem "csv"
+gem 'jekyll', '~> 4.2'
+gem "ffi", "< 1.17.0"
+gem "jekyll-sass-converter", "~> 2.0"
 
-gem "jekyll-github-metadata", ">= 2.15"
-
-gem "jekyll-include-cache", group: :jekyll_plugins
-gem "jekyll-sitemap", group: :jekyll_plugins
-
-gem "html-proofer", "~> 5.0", :group => :development
-
-gem "faraday-retry"
+group :jekyll_plugins do
+  gem 'jekyll-timeago', '~> 0.13.1'
+end
